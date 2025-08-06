@@ -1,0 +1,30 @@
+library(corrplot)
+cor_method = "pearson"
+sig_level = 0.01
+filn <- read.table(file = "Corrgram_input_05_31Jul25.txt", header = TRUE, row.names = 1)
+filn_cor <- cor(filn, method = cor_method)
+cor.mtest <- function(mat, ...) {
+     mat <- as.matrix(mat)
+     n <- ncol(mat)
+     p.mat<- matrix(NA, n, n)
+     diag(p.mat) <- 0
+     for (i in 1:(n - 1)) {
+         for (j in (i + 1):n) {
+             tmp <- cor.test(mat[, i], mat[, j], method = cor_method)
+             p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+         }
+     }
+     colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+     p.mat
+}
+
+p.mat <- cor.mtest(filn_cor)
+pdf_name <- paste("Corrplot_", cor_method, "_", sig_level, ".pdf", sep = "")
+pdf(pdf_name)
+corrplot(filn_cor, method = "pie", type = "full", order = "alphabet", p.mat = p.mat, sig.level = sig_level, insig = "blank", tl.col="black", tl.srt=60, tl.cex = 0.55)
+dev.off()
+corrs_name <- paste("correlations_", cor_method, "_", sig_level, ".txt", sep = "")
+sigs_name <- paste("significances_", cor_method, "_", sig_level, ".txt", sep = "")
+
+write.table(filn_cor, file = corrs_name, quote = FALSE, sep = "\t")
+write.table(p.mat, file = sigs_name, quote = FALSE, sep = "\t")

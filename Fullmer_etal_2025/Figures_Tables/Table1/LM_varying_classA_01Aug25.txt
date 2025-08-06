@@ -1,0 +1,156 @@
+Call:
+lm(formula = Proportion_Helix ~ Alphabet_3di, data = Full)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.31874 -0.01558  0.00446  0.08665  0.10597 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   0.89742    0.15429   5.816 0.000653 ***
+Alphabet_3di -0.04090    0.01227  -3.334 0.012530 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1411 on 7 degrees of freedom
+Multiple R-squared:  0.6135,	Adjusted R-squared:  0.5583 
+F-statistic: 11.11 on 1 and 7 DF,  p-value: 0.01253 
+
+
+
+Call:
+lm(formula = Proportion_Helix ~ Alphabet_3di, data = NoA)
+
+Residuals:
+ b_122_1   b_15_1  c_110_1  c_124_1  d_120_1  d_122_1 
+-0.07238 -0.10983 -0.06182  0.08489  0.11572  0.04342 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept)  -0.15786    0.39745  -0.397    0.712
+Alphabet_3di  0.03052    0.02756   1.108    0.330
+
+Residual standard error: 0.1044 on 4 degrees of freedom
+Multiple R-squared:  0.2347,	Adjusted R-squared:  0.04341 
+F-statistic: 1.227 on 1 and 4 DF,  p-value: 0.3301
+
+
+
+Call:
+lm(formula = Proportion_Helix ~ Alphabet_3di, data = filn_35)
+
+Residuals:
+  a_35_1  b_122_1   b_15_1  c_110_1  c_124_1  d_120_1  d_122_1 
+ 0.16396 -0.02637 -0.28561 -0.01104  0.10108 -0.02011  0.07810 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)  
+(Intercept)   0.72439    0.35649   2.032   0.0979 .
+Alphabet_3di -0.02910    0.02585  -1.126   0.3115  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1587 on 5 degrees of freedom
+Multiple R-squared:  0.2022,	Adjusted R-squared:  0.04259 
+F-statistic: 1.267 on 1 and 5 DF,  p-value: 0.3115
+
+
+
+Call:
+lm(formula = Proportion_Helix ~ Alphabet_3di, data = filn_38)
+
+Residuals:
+   a_38_1   b_122_1    b_15_1   c_110_1   c_124_1   d_120_1   d_122_1 
+ 0.088922 -0.007352 -0.286289  0.008399  0.117452 -0.017246  0.096114 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept)   0.78783    0.19415   4.058  0.00975 **
+Alphabet_3di -0.03439    0.01445  -2.379  0.06320 . 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1505 on 5 degrees of freedom
+Multiple R-squared:  0.531,	Adjusted R-squared:  0.4373 
+F-statistic: 5.662 on 1 and 5 DF,  p-value: 0.0632
+
+
+
+Call:
+lm(formula = Proportion_Helix ~ Alphabet_3di, data = filn_39)
+
+Residuals:
+   a_39_2   b_122_1    b_15_1   c_110_1   c_124_1   d_120_1   d_122_1 
+ 0.153910 -0.024577 -0.284176 -0.009242  0.102826 -0.018616  0.079876 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)  
+(Intercept)   0.72411    0.33645   2.152    0.084 .
+Alphabet_3di -0.02919    0.02445  -1.194    0.286  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1565 on 5 degrees of freedom
+Multiple R-squared:  0.2218,	Adjusted R-squared:  0.06617 
+F-statistic: 1.425 on 1 and 5 DF,  p-value: 0.2861
+
+
+
+Call:
+lm(formula = Proportion_Helix ~ Alphabet_3di, data = filn_35_39)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.31738 -0.02374  0.04246  0.09057  0.10507 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)  
+(Intercept)   0.88775    0.26523   3.347   0.0155 *
+Alphabet_3di -0.04020    0.01999  -2.011   0.0910 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1523 on 6 degrees of freedom
+Multiple R-squared:  0.4026,	Adjusted R-squared:  0.3031 
+F-statistic: 4.044 on 1 and 6 DF,  p-value: 0.09104
+
+
+
+Call:
+lm(formula = Proportion_Helix ~ Alphabet_3di, data = filn_38_39)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.30517 -0.01707  0.02154  0.09454  0.11124 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept)   0.85332    0.17014   5.015  0.00241 **
+Alphabet_3di -0.03833    0.01315  -2.915  0.02679 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1458 on 6 degrees of freedom
+Multiple R-squared:  0.5862,	Adjusted R-squared:  0.5172 
+F-statistic: 8.499 on 1 and 6 DF,  p-value: 0.02679
+
+
+
+Call:
+lm(formula = Proportion_Helix ~ Alphabet_3di, data = filn_35_38)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.30701 -0.01866  0.01952  0.09460  0.11713 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept)   0.85618    0.17436   4.910  0.00268 **
+Alphabet_3di -0.03841    0.01344  -2.858  0.02889 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1476 on 6 degrees of freedom
+Multiple R-squared:  0.5765,	Adjusted R-squared:  0.5059 
+F-statistic: 8.166 on 1 and 6 DF,  p-value: 0.02889
+
