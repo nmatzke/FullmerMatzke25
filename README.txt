@@ -24,5 +24,7 @@ Table S2. Frequencies of 3Di character states for the 9 superfamilies. Frequenci
 
 Table S3. Tests of the effect of rate matrices on IQ-TREE2 ultrafast bootstrap percentages in 4 selected superfamilies. 			
 
+Fullmer_etal_2025_SuppData/FullmerMatzke_Supplemental_Text.pdf
+Explanation of Tree Consistency metrics and abbreviations
 
 
