@@ -1,0 +1,131 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: crystal_aa.fa
+Type of analysis: tree reconstruction
+Random seed number: 42280
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 15 sequences with 119 amino-acid sites
+Number of constant sites: 14 (= 11.7647% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 14 (= 11.7647% of all sites)
+Number of parsimony informative sites: 66
+Number of distinct site patterns: 117
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0607
+  pi(R) = 0.0319
+  pi(N) = 0.0311
+  pi(D) = 0.0713
+  pi(C) = 0.0083
+  pi(Q) = 0.0266
+  pi(E) = 0.1055
+  pi(G) = 0.0690
+  pi(H) = 0.0493
+  pi(I) = 0.0478
+  pi(L) = 0.0842
+  pi(K) = 0.0766
+  pi(M) = 0.0182
+  pi(F) = 0.0296
+  pi(P) = 0.0493
+  pi(S) = 0.0531
+  pi(T) = 0.0592
+  pi(W) = 0.0144
+  pi(Y) = 0.0417
+  pi(V) = 0.0721
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2212.8420 (s.e. 102.6645)
+Unconstrained log-likelihood (without tree): -565.9431
+Number of free parameters (#branches + #model parameters): 46
+Akaike information criterion (AIC) score: 4517.6841
+Corrected Akaike information criterion (AICc) score: 4577.7396
+Bayesian information criterion (BIC) score: 4645.5238
+
+Total tree length (sum of branch lengths): 10.0104
+Sum of internal branch lengths: 1.9484 (19.4635% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0084) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'd_120_1_0_3ks0_A' is drawn at root
+
++-----d_120_1_0_3ks0_A
+|
++-----d_120_1_0_4b8n_A
+|
+|     +--------------d_120_1_0_3lf5_A
++-----|
+      |          +-----d_120_1_1_2ibj_A
+      |     +----|
+      |     |    |     +--------------------------------------d_120_1_0_2keo_A
+      |     |    |  +--|
+      |     |    |  |  |     +--d_120_1_1_3ner_A
+      |     |    |  |  |  +--|
+      |     |    |  |  |  |  +--d_120_1_1_1awp_A
+      |     |    |  |  +**|
+      |     |    |  |     +--d_120_1_1_2i89_A
+      |     |    +--|
+      |     |       |  +**d_120_1_1_3ozz_B
+      |     |       +--|
+      |     |          |     +--d_120_1_1_1do9_A
+      |     |          |  +--|
+      |     |          |  |  +--d_120_1_1_1i87_A
+      |     |          +--|
+      |     |             +**d_120_1_1_1hko_A
+      |  +--|
+      |  |  |  +----------d_120_1_1_1cxy_A
+      |  |  +--|
+      |  |     +-------------------d_120_1_1_1mj4_A
+      +--|
+         +---------d_120_1_0_1x3x_A
+
+Tree in newick format:
+
+(d_120_1_0_3ks0_A:0.4051258474,d_120_1_0_4b8n_A:0.4256026431,(d_120_1_0_3lf5_A:1.0400258133,(((d_120_1_1_2ibj_A:0.4025885363,((d_120_1_0_2keo_A:2.5990573243,((d_120_1_1_3ner_A:0.2109613336,d_120_1_1_1awp_A:0.0243250658):0.0276186275,d_120_1_1_2i89_A:0.0758157120):0.0000024018):0.1588049302,(d_120_1_1_3ozz_B:0.0000010000,((d_120_1_1_1do9_A:0.0476628712,d_120_1_1_1i87_A:0.0509622522):0.0681465845,d_120_1_1_1hko_A:0.0000020612):0.1912295292):0.1133078604):0.0838485117):0.3777736560,(d_120_1_1_1cxy_A:0.7274608059,d_120_1_1_1mj4_A:1.3371773933):0.1907854359):0.1815690071,d_120_1_0_1x3x_A:0.7152760994):0.1443672079):0.4109303907);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t crystal_aa.fa.treefile -m "LG+F" --length 119
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s crystal_aa.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s crystal_aa.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun  6 12:19:10 2025
+Total CPU time used: 2.25591 seconds (0h:0m:2s)
+Total wall-clock time used: 2.12404 seconds (0h:0m:2s)
+

@@ -1,0 +1,123 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    sc-sbs-383386 (AVX512, FMA3, 32 GB RAM)
+Command: /Users/mful870/Bioinformatics_Programs/iqtree-2.4.0-macOS/bin/iqtree2 -redo -s crystal.tdialn -m LG+F
+Seed:    147618 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  6 12:14:09 2025
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file crystal.tdialn ... Fasta format detected
+Reading fasta file: done in 0.000305891 secs using 63.09% CPU
+Alignment most likely contains protein sequences
+Alignment has 13 sequences with 354 columns, 268 distinct patterns
+115 parsimony-informative, 110 singleton sites, 129 constant sites
+WARNING: Some sequence names are changed as follows:
+b_122_1_12+2zkd_A -> b_122_1_12_2zkd_A
+b_122_1_12+4pw5_A -> b_122_1_12_4pw5_A
+b_122_1_10+1zbo_A -> b_122_1_10_1zbo_A
+b_122_1_10+2ane_A -> b_122_1_10_2ane_A
+b_122_1_8+1zce_A -> b_122_1_8_1zce_A
+b_122_1_8+2ar1_A -> b_122_1_8_2ar1_A
+b_122_1_8+1wmm_A -> b_122_1_8_1wmm_A
+b_122_1_6+1s04_A -> b_122_1_6_1s04_A
+b_122_1_6+2z0t_A -> b_122_1_6_2z0t_A
+b_122_1_6+1xne_A -> b_122_1_6_1xne_A
+b_122_1_7+1te7_A -> b_122_1_7_1te7_A
+b_122_1_5+1wk2_A -> b_122_1_5_1wk2_A
+b_122_1_11+2gmq_A -> b_122_1_11_2gmq_A
+
+                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.31266e-05 secs using 77.83% CPU
+   1  b_122_1_12_2zkd_A   40.68%    passed      6.46%
+   2  b_122_1_12_4pw5_A   46.61%    passed     93.78%
+   3  b_122_1_10_1zbo_A   44.35%    passed     51.49%
+   4  b_122_1_10_2ane_A   68.93%    passed     30.80%
+   5  b_122_1_8_1zce_A    58.76%    passed     95.48%
+   6  b_122_1_8_2ar1_A    55.65%    passed     62.69%
+   7  b_122_1_8_1wmm_A    59.60%    passed     92.10%
+   8  b_122_1_6_1s04_A    68.93%    passed     11.39%
+   9  b_122_1_6_2z0t_A    69.21%    passed     67.03%
+  10  b_122_1_6_1xne_A    68.08%    passed     47.63%
+  11  b_122_1_7_1te7_A    70.90%    passed     95.38%
+  12  b_122_1_5_1wk2_A    76.27%    passed     26.70%
+  13  b_122_1_11_2gmq_A   72.03%    passed     20.11%
+WARNING: 10 sequences contain more than 50% gaps/ambiguity
+****  TOTAL               61.54%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4643.354
+Optimal log-likelihood: -4062.468
+Parameters optimization took 1 rounds (0.006 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00711298 secs using 98.9% CPU
+Computing ML distances took 0.007281 sec (of wall-clock time) 0.007111 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 5.00679e-05 secs using 71.9% CPU
+Computing RapidNJ tree took 0.000188 sec (of wall-clock time) 0.000117 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -4059.700
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.113 second
+Computing log-likelihood of 98 initial trees ... 0.195 seconds
+Current best score: -4059.700
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4055.900
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -4055.749
+Iteration 10 / LogL: -4056.802 / Time: 0h:0m:0s
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -4055.560
+Iteration 20 / LogL: -4055.772 / Time: 0h:0m:1s
+Finish initializing candidate tree set (9)
+Current best tree score: -4055.560 / CPU time: 1.212
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -4057.197 / Time: 0h:0m:1s (0h:0m:4s left)
+Iteration 40 / LogL: -4056.731 / Time: 0h:0m:2s (0h:0m:3s left)
+Iteration 50 / LogL: -4055.948 / Time: 0h:0m:2s (0h:0m:2s left)
+Iteration 60 / LogL: -4055.641 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 70 / LogL: -4056.186 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 80 / LogL: -4056.124 / Time: 0h:0m:3s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -4055.551
+Iteration 90 / LogL: -4056.218 / Time: 0h:0m:3s (0h:0m:0s left)
+Iteration 100 / LogL: -4055.666 / Time: 0h:0m:3s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 105 ITERATIONS / Time: 0h:0m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4055.551
+Optimal log-likelihood: -4055.547
+Parameters optimization took 1 rounds (0.003 sec)
+BEST SCORE FOUND : -4055.547
+Total tree length: 12.837
+
+Total number of iterations: 105
+CPU time used for tree search: 3.936 sec (0h:0m:3s)
+Wall-clock time used for tree search: 4.109 sec (0h:0m:4s)
+Total CPU time used: 3.997 sec (0h:0m:3s)
+Total wall-clock time used: 4.168 sec (0h:0m:4s)
+
+Analysis results written to: 
+  IQ-TREE report:                crystal.tdialn.iqtree
+  Maximum-likelihood tree:       crystal.tdialn.treefile
+  Likelihood distances:          crystal.tdialn.mldist
+  Screen log file:               crystal.tdialn.log
+
+Date and Time: Fri Jun  6 12:14:13 2025

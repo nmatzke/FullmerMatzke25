@@ -1,0 +1,211 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    sc-sbs-383386 (AVX512, FMA3, 32 GB RAM)
+Command: /Users/mful870/Bioinformatics_Programs/iqtree-2.4.0-macOS/bin/iqtree2 -redo -s crystal.tdialn -m LG+F
+Seed:    427174 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  6 12:38:58 2025
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file crystal.tdialn ... Fasta format detected
+Reading fasta file: done in 0.000262022 secs using 80.91% CPU
+Alignment most likely contains protein sequences
+Alignment has 32 sequences with 241 columns, 209 distinct patterns
+111 parsimony-informative, 70 singleton sites, 60 constant sites
+WARNING: Some sequence names are changed as follows:
+a_35_1_3+1b0n_A -> a_35_1_3_1b0n_A
+a_35_1_3+2ofy_A -> a_35_1_3_2ofy_A
+a_35_1_6+2ox6_A -> a_35_1_6_2ox6_A
+a_35_1_0+2pij_A -> a_35_1_0_2pij_A
+a_35_1_13+2o38_A -> a_35_1_13_2o38_A
+a_35_1_2+1d1m_B -> a_35_1_2_1d1m_B
+a_35_1_2+2a63_A -> a_35_1_2_2a63_A
+a_35_1_0+2xsd_C -> a_35_1_0_2xsd_C
+a_35_1_1+1e3o_C -> a_35_1_1_1e3o_C
+a_35_1_1+1au7_A -> a_35_1_1_1au7_A
+a_35_1_7+1s7e_A -> a_35_1_7_1s7e_A
+a_35_1_7+1yse_A -> a_35_1_7_1yse_A
+a_35_1_0+3vk0_A -> a_35_1_0_3vk0_A
+a_35_1_3+1utx_A -> a_35_1_3_1utx_A
+a_35_1_3+1y7y_A -> a_35_1_3_1y7y_A
+a_35_1_3+2b5a_A -> a_35_1_3_2b5a_A
+a_35_1_0+3clc_A -> a_35_1_0_3clc_A
+a_35_1_0+5woq_A -> a_35_1_0_5woq_A
+a_35_1_0+2l8n_A -> a_35_1_0_2l8n_A
+a_35_1_2+1lli_A -> a_35_1_2_1lli_A
+a_35_1_2+3kz3_A -> a_35_1_2_3kz3_A
+a_35_1_2+1neq_A -> a_35_1_2_1neq_A
+a_35_1_2+1sq8_A -> a_35_1_2_1sq8_A
+a_35_1_2+2r63_A -> a_35_1_2_2r63_A
+a_35_1_2+1zug_A -> a_35_1_2_1zug_A
+a_35_1_2+3jxb_C -> a_35_1_2_3jxb_C
+a_35_1_3+2ppx_A -> a_35_1_3_2ppx_A
+a_35_1_5+1uxc_A -> a_35_1_5_1uxc_A
+a_35_1_3+2icp_A -> a_35_1_3_2icp_A
+a_35_1_3+4mct_A -> a_35_1_3_4mct_A
+a_35_1_0+2eby_A -> a_35_1_0_2eby_A
+a_35_1_2+1rzs_A -> a_35_1_2_1rzs_A
+
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.57764e-05 secs using 83.01% CPU
+   1  a_35_1_3_1b0n_A    57.26%    passed     68.21%
+   2  a_35_1_3_2ofy_A    65.98%    passed     61.74%
+   3  a_35_1_6_2ox6_A    32.78%    failed      0.02%
+   4  a_35_1_0_2pij_A    75.52%    failed      0.00%
+   5  a_35_1_13_2o38_A   63.07%    passed     58.12%
+   6  a_35_1_2_1d1m_B    73.03%    failed      0.00%
+   7  a_35_1_2_2a63_A    72.61%    failed      0.00%
+   8  a_35_1_0_2xsd_C    46.89%    passed     43.52%
+   9  a_35_1_1_1e3o_C    45.23%    passed     91.65%
+  10  a_35_1_1_1au7_A    46.06%    passed     50.10%
+  11  a_35_1_7_1s7e_A    39.00%    failed      0.05%
+  12  a_35_1_7_1yse_A    63.49%    passed     91.01%
+  13  a_35_1_0_3vk0_A    63.07%    passed     80.71%
+  14  a_35_1_3_1utx_A    72.61%    passed     64.19%
+  15  a_35_1_3_1y7y_A    71.37%    passed     85.13%
+  16  a_35_1_3_2b5a_A    68.05%    passed     77.40%
+  17  a_35_1_0_3clc_A    68.46%    passed     90.57%
+  18  a_35_1_0_5woq_A    66.80%    passed     88.23%
+  19  a_35_1_0_2l8n_A    80.50%    passed     65.75%
+  20  a_35_1_2_1lli_A    63.07%    passed     85.29%
+  21  a_35_1_2_3kz3_A    66.80%    passed     71.87%
+  22  a_35_1_2_1neq_A    69.29%    passed     66.10%
+  23  a_35_1_2_1sq8_A    73.44%    passed     67.01%
+  24  a_35_1_2_2r63_A    73.86%    passed     67.28%
+  25  a_35_1_2_1zug_A    70.54%    passed     87.75%
+  26  a_35_1_2_3jxb_C    72.20%    passed     95.30%
+  27  a_35_1_3_2ppx_A    74.27%    passed     90.32%
+  28  a_35_1_5_1uxc_A    79.25%    passed     91.22%
+  29  a_35_1_3_2icp_A    63.90%    passed     94.64%
+  30  a_35_1_3_4mct_A    61.83%    passed     87.30%
+  31  a_35_1_0_2eby_A    57.68%    passed     38.43%
+  32  a_35_1_2_1rzs_A    74.69%    passed     98.22%
+WARNING: 27 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              64.77%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4997.648
+Optimal log-likelihood: -4360.474
+Parameters optimization took 1 rounds (0.015 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0468981 secs using 97.04% CPU
+Computing ML distances took 0.047127 sec (of wall-clock time) 0.045630 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 8.2016e-05 secs using 71.94% CPU
+Computing RapidNJ tree took 0.000286 sec (of wall-clock time) 0.000208 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -4375.416
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.447 second
+Computing log-likelihood of 98 initial trees ... 0.382 seconds
+Current best score: -4360.474
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4335.896
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -4334.157
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -4331.668
+Iteration 10 / LogL: -4340.346 / Time: 0h:0m:1s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -4329.988
+Iteration 20 / LogL: -4336.002 / Time: 0h:0m:2s
+Finish initializing candidate tree set (20)
+Current best tree score: -4329.988 / CPU time: 2.358
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -4329.977
+Iteration 30 / LogL: -4330.722 / Time: 0h:0m:3s (0h:0m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -4328.489
+Iteration 40 / LogL: -4330.192 / Time: 0h:0m:3s (0h:0m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -4328.078
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -4327.854
+Iteration 50 / LogL: -4329.063 / Time: 0h:0m:4s (0h:0m:9s left)
+Iteration 60 / LogL: -4327.988 / Time: 0h:0m:5s (0h:0m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -4327.038
+Iteration 70 / LogL: -4330.701 / Time: 0h:0m:5s (0h:0m:7s left)
+Iteration 80 / LogL: -4330.719 / Time: 0h:0m:6s (0h:0m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 82: -4325.417
+Iteration 90 / LogL: -4326.718 / Time: 0h:0m:7s (0h:0m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 91: -4323.971
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -4323.794
+UPDATE BEST LOG-LIKELIHOOD: -4323.789
+Iteration 100 / LogL: -4326.964 / Time: 0h:0m:7s (0h:0m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 106: -4323.067
+Iteration 110 / LogL: -4331.241 / Time: 0h:0m:8s (0h:0m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 116: -4321.271
+Iteration 120 / LogL: -4324.902 / Time: 0h:0m:8s (0h:0m:7s left)
+Iteration 130 / LogL: -4321.309 / Time: 0h:0m:9s (0h:0m:6s left)
+Iteration 140 / LogL: -4321.349 / Time: 0h:0m:10s (0h:0m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 143: -4320.052
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 144: -4319.960
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -4319.170
+Iteration 150 / LogL: -4321.367 / Time: 0h:0m:10s (0h:0m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 158: -4318.838
+Iteration 160 / LogL: -4319.787 / Time: 0h:0m:11s (0h:0m:7s left)
+Iteration 170 / LogL: -4321.235 / Time: 0h:0m:12s (0h:0m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 172: -4317.503
+Iteration 180 / LogL: -4319.237 / Time: 0h:0m:12s (0h:0m:6s left)
+Iteration 190 / LogL: -4317.507 / Time: 0h:0m:13s (0h:0m:5s left)
+Iteration 200 / LogL: -4319.313 / Time: 0h:0m:13s (0h:0m:5s left)
+Iteration 210 / LogL: -4320.577 / Time: 0h:0m:14s (0h:0m:4s left)
+Iteration 220 / LogL: -4318.987 / Time: 0h:0m:15s (0h:0m:3s left)
+Iteration 230 / LogL: -4317.565 / Time: 0h:0m:15s (0h:0m:2s left)
+Iteration 240 / LogL: -4317.575 / Time: 0h:0m:16s (0h:0m:2s left)
+Iteration 250 / LogL: -4320.420 / Time: 0h:0m:16s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -4317.493
+Iteration 260 / LogL: -4317.863 / Time: 0h:0m:17s (0h:0m:0s left)
+Iteration 270 / LogL: -4320.261 / Time: 0h:0m:18s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 273 ITERATIONS / Time: 0h:0m:18s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4317.493
+Optimal log-likelihood: -4317.477
+Parameters optimization took 1 rounds (0.007 sec)
+BEST SCORE FOUND : -4317.477
+Total tree length: 18.571
+
+Total number of iterations: 273
+CPU time used for tree search: 17.989 sec (0h:0m:17s)
+Wall-clock time used for tree search: 18.239 sec (0h:0m:18s)
+Total CPU time used: 18.133 sec (0h:0m:18s)
+Total wall-clock time used: 18.367 sec (0h:0m:18s)
+
+Analysis results written to: 
+  IQ-TREE report:                crystal.tdialn.iqtree
+  Maximum-likelihood tree:       crystal.tdialn.treefile
+  Likelihood distances:          crystal.tdialn.mldist
+  Screen log file:               crystal.tdialn.log
+
+Date and Time: Fri Jun  6 12:39:16 2025

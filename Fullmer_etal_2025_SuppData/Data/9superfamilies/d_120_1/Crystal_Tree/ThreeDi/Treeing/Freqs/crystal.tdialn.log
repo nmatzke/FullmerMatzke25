@@ -1,0 +1,121 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    sc-sbs-383386 (AVX512, FMA3, 32 GB RAM)
+Command: /Users/mful870/Bioinformatics_Programs/iqtree-2.4.0-macOS/bin/iqtree2 -redo -s crystal.tdialn -m LG+F
+Seed:    354719 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  6 12:19:06 2025
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file crystal.tdialn ... Fasta format detected
+Reading fasta file: done in 8.60691e-05 secs using 80.17% CPU
+Alignment most likely contains protein sequences
+Alignment has 15 sequences with 119 columns, 112 distinct patterns
+63 parsimony-informative, 39 singleton sites, 17 constant sites
+WARNING: Some sequence names are changed as follows:
+d_120_1_0+3ks0_A -> d_120_1_0_3ks0_A
+d_120_1_0+4b8n_A -> d_120_1_0_4b8n_A
+d_120_1_0+3lf5_A -> d_120_1_0_3lf5_A
+d_120_1_1+2ibj_A -> d_120_1_1_2ibj_A
+d_120_1_0+1x3x_A -> d_120_1_0_1x3x_A
+d_120_1_0+2keo_A -> d_120_1_0_2keo_A
+d_120_1_1+3ner_A -> d_120_1_1_3ner_A
+d_120_1_1+1awp_A -> d_120_1_1_1awp_A
+d_120_1_1+2i89_A -> d_120_1_1_2i89_A
+d_120_1_1+3ozz_B -> d_120_1_1_3ozz_B
+d_120_1_1+1do9_A -> d_120_1_1_1do9_A
+d_120_1_1+1hko_A -> d_120_1_1_1hko_A
+d_120_1_1+1i87_A -> d_120_1_1_1i87_A
+d_120_1_1+1cxy_A -> d_120_1_1_1cxy_A
+d_120_1_1+1mj4_A -> d_120_1_1_1mj4_A
+
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.21593e-05 secs using 82.24% CPU
+   1  d_120_1_0_3ks0_A   22.69%    passed     86.80%
+   2  d_120_1_0_4b8n_A   33.61%    passed     99.99%
+   3  d_120_1_0_3lf5_A   26.89%    passed     97.04%
+   4  d_120_1_1_2ibj_A   27.73%    passed     97.54%
+   5  d_120_1_0_1x3x_A   31.09%    passed     99.81%
+   6  d_120_1_0_2keo_A   22.69%    passed     93.48%
+   7  d_120_1_1_3ner_A   24.37%    passed     99.25%
+   8  d_120_1_1_1awp_A   27.73%    passed     99.84%
+   9  d_120_1_1_2i89_A   24.37%    passed     98.76%
+  10  d_120_1_1_3ozz_B   31.09%    passed     99.60%
+  11  d_120_1_1_1do9_A   21.01%    passed     93.56%
+  12  d_120_1_1_1hko_A   12.61%    passed     83.08%
+  13  d_120_1_1_1i87_A   21.01%    failed      0.79%
+  14  d_120_1_1_1cxy_A   31.93%    passed     95.51%
+  15  d_120_1_1_1mj4_A   33.61%    passed     83.98%
+****  TOTAL              26.16%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+WARNING: States(s) K, M rarely appear in alignment and may cause numerical problems
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2149.290
+Optimal log-likelihood: -2087.065
+Parameters optimization took 1 rounds (0.004 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00892901 secs using 98.56% CPU
+Computing ML distances took 0.009134 sec (of wall-clock time) 0.008885 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 4.91142e-05 secs using 75.33% CPU
+Computing RapidNJ tree took 0.000212 sec (of wall-clock time) 0.000118 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2097.186
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.077 second
+Computing log-likelihood of 98 initial trees ... 0.109 seconds
+Current best score: -2074.379
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2071.161
+Iteration 10 / LogL: -2074.379 / Time: 0h:0m:0s
+Iteration 20 / LogL: -2074.739 / Time: 0h:0m:0s
+Finish initializing candidate tree set (17)
+Current best tree score: -2071.161 / CPU time: 0.376
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -2071.550 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 40 / LogL: -2072.140 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 50 / LogL: -2071.376 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 60 / LogL: -2071.352 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -2071.559 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -2073.311 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 90 / LogL: -2071.248 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 100 / LogL: -2071.350 / Time: 0h:0m:1s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2071.161
+Optimal log-likelihood: -2071.160
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -2071.160
+Total tree length: 7.079
+
+Total number of iterations: 102
+CPU time used for tree search: 1.426 sec (0h:0m:1s)
+Wall-clock time used for tree search: 1.280 sec (0h:0m:1s)
+Total CPU time used: 1.470 sec (0h:0m:1s)
+Total wall-clock time used: 1.327 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                crystal.tdialn.iqtree
+  Maximum-likelihood tree:       crystal.tdialn.treefile
+  Likelihood distances:          crystal.tdialn.mldist
+  Screen log file:               crystal.tdialn.log
+
+Date and Time: Fri Jun  6 12:19:07 2025

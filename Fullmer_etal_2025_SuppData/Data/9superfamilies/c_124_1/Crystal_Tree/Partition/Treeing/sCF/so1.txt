@@ -1,0 +1,158 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    sc-sbs-383386 (AVX512, FMA3, 32 GB RAM)
+Command: /Users/mful870/Bioinformatics_Programs/iqtree-2.4.0-macOS/bin/iqtree2 -redo -te /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/c_124_1/Crystal_Tree/Partition/Treeing/partition_file.nex.treefile -s /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/c_124_1/Crystal_Tree/Partition/Treeing/Alns --scfl 100 -blfix -m partition_file.nex.best_model.nex --prefix concord
+Seed:    826710 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  6 12:23:29 2025
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading 2 alignment files in directory /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/c_124_1/Crystal_Tree/Partition/Treeing/Alns
+Reading alignment file /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/c_124_1/Crystal_Tree/Partition/Treeing/Alns/crystal.tdialn ... Fasta format detected
+Reading fasta file: done in 0.0004251 secs using 84.92% CPU
+Alignment most likely contains protein sequences
+Alignment has 23 sequences with 661 columns, 569 distinct patterns
+303 parsimony-informative, 194 singleton sites, 164 constant sites
+WARNING: Some sequence names are changed as follows:
+c_124_1_0+4oqp_A -> c_124_1_0_4oqp_A
+c_124_1_8+2gnp_A -> c_124_1_8_2gnp_A
+c_124_1_0+3kv1_A -> c_124_1_0_3kv1_A
+c_124_1_0+4l4y_A -> c_124_1_0_4l4y_A
+c_124_1_8+2o0m_A -> c_124_1_8_2o0m_A
+c_124_1_8+3efb_A -> c_124_1_8_3efb_A
+c_124_1_1+1pbt_A -> c_124_1_1_1pbt_A
+c_124_1_1+1ne7_A -> c_124_1_1_1ne7_A
+c_124_1_1+4r7t_A -> c_124_1_1_4r7t_A
+c_124_1_1+1jt9_A -> c_124_1_1_1jt9_A
+c_124_1_8+2r5f_A -> c_124_1_8_2r5f_A
+c_124_1_0+5n01_D -> c_124_1_0_5n01_D
+c_124_1_3+1poi_B -> c_124_1_3_1poi_B
+c_124_1_7+2g40_A -> c_124_1_7_2g40_A
+c_124_1_6+1sbq_A -> c_124_1_6_1sbq_A
+c_124_1_6+1wkc_A -> c_124_1_6_1wkc_A
+c_124_1_2+1poi_A -> c_124_1_2_1poi_A
+c_124_1_0+3cdk_A -> c_124_1_0_3cdk_A
+c_124_1_0+3rrl_A -> c_124_1_0_3rrl_A
+c_124_1_0+5dbn_A -> c_124_1_0_5dbn_A
+c_124_1_5+1t9k_A -> c_124_1_5_1t9k_A
+c_124_1_5+1vb5_A -> c_124_1_5_1vb5_A
+c_124_1_5+1w2w_A -> c_124_1_5_1w2w_A
+
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.72069e-05 secs using 78.38% CPU
+   1  c_124_1_0_4oqp_A   61.57%    passed     53.68%
+   2  c_124_1_8_2gnp_A   60.36%    passed     75.22%
+   3  c_124_1_0_3kv1_A   61.72%    passed     78.72%
+   4  c_124_1_0_4l4y_A   64.15%    passed     48.78%
+   5  c_124_1_8_2o0m_A   62.63%    passed     95.29%
+   6  c_124_1_8_3efb_A   62.78%    passed     81.62%
+   7  c_124_1_1_1pbt_A   66.72%    passed     27.40%
+   8  c_124_1_1_1ne7_A   57.49%    passed     50.22%
+   9  c_124_1_1_4r7t_A   59.76%    passed     42.81%
+  10  c_124_1_1_1jt9_A   62.63%    passed     20.68%
+  11  c_124_1_8_2r5f_A   67.02%    passed     95.75%
+  12  c_124_1_0_5n01_D   63.69%    failed      3.14%
+  13  c_124_1_3_1poi_B   60.67%    passed     12.04%
+  14  c_124_1_7_2g40_A   75.19%    passed     75.10%
+  15  c_124_1_6_1sbq_A   75.19%    passed     71.63%
+  16  c_124_1_6_1wkc_A   74.58%    failed      3.97%
+  17  c_124_1_2_1poi_A   52.04%    passed     73.78%
+  18  c_124_1_0_3cdk_A   65.36%    passed     13.33%
+  19  c_124_1_0_3rrl_A   65.20%    failed      1.70%
+  20  c_124_1_0_5dbn_A   67.47%    passed     41.13%
+  21  c_124_1_5_1t9k_A   48.56%    passed     44.30%
+  22  c_124_1_5_1vb5_A   58.55%    failed      1.56%
+  23  c_124_1_5_1w2w_A   68.08%    failed      0.00%
+WARNING: 22 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              63.54%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading alignment file /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/c_124_1/Crystal_Tree/Partition/Treeing/Alns/crystal_aa.fa ... Fasta format detected
+Reading fasta file: done in 0.000494957 secs using 78.39% CPU
+Alignment most likely contains protein sequences
+Alignment has 23 sequences with 661 columns, 609 distinct patterns
+298 parsimony-informative, 244 singleton sites, 119 constant sites
+WARNING: Some sequence names are changed as follows:
+c_124_1_0+4oqp_A -> c_124_1_0_4oqp_A
+c_124_1_8+2gnp_A -> c_124_1_8_2gnp_A
+c_124_1_0+3kv1_A -> c_124_1_0_3kv1_A
+c_124_1_0+4l4y_A -> c_124_1_0_4l4y_A
+c_124_1_8+2o0m_A -> c_124_1_8_2o0m_A
+c_124_1_8+3efb_A -> c_124_1_8_3efb_A
+c_124_1_1+1pbt_A -> c_124_1_1_1pbt_A
+c_124_1_1+1ne7_A -> c_124_1_1_1ne7_A
+c_124_1_1+4r7t_A -> c_124_1_1_4r7t_A
+c_124_1_1+1jt9_A -> c_124_1_1_1jt9_A
+c_124_1_8+2r5f_A -> c_124_1_8_2r5f_A
+c_124_1_0+5n01_D -> c_124_1_0_5n01_D
+c_124_1_3+1poi_B -> c_124_1_3_1poi_B
+c_124_1_7+2g40_A -> c_124_1_7_2g40_A
+c_124_1_6+1sbq_A -> c_124_1_6_1sbq_A
+c_124_1_6+1wkc_A -> c_124_1_6_1wkc_A
+c_124_1_2+1poi_A -> c_124_1_2_1poi_A
+c_124_1_0+3cdk_A -> c_124_1_0_3cdk_A
+c_124_1_0+3rrl_A -> c_124_1_0_3rrl_A
+c_124_1_0+5dbn_A -> c_124_1_0_5dbn_A
+c_124_1_5+1t9k_A -> c_124_1_5_1t9k_A
+c_124_1_5+1vb5_A -> c_124_1_5_1vb5_A
+c_124_1_5+1w2w_A -> c_124_1_5_1w2w_A
+
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.41074e-05 secs using 86.15% CPU
+   1  c_124_1_0_4oqp_A   61.57%    passed     99.86%
+   2  c_124_1_8_2gnp_A   60.36%    failed      4.15%
+   3  c_124_1_0_3kv1_A   61.72%    passed     48.33%
+   4  c_124_1_0_4l4y_A   64.15%    failed      2.69%
+   5  c_124_1_8_2o0m_A   62.63%    passed     61.74%
+   6  c_124_1_8_3efb_A   62.78%    passed     56.73%
+   7  c_124_1_1_1pbt_A   66.72%    passed     23.65%
+   8  c_124_1_1_1ne7_A   57.49%    passed     57.51%
+   9  c_124_1_1_4r7t_A   59.76%    passed     91.68%
+  10  c_124_1_1_1jt9_A   62.63%    passed     87.03%
+  11  c_124_1_8_2r5f_A   67.02%    passed     12.10%
+  12  c_124_1_0_5n01_D   63.69%    failed      0.00%
+  13  c_124_1_3_1poi_B   60.67%    passed     76.45%
+  14  c_124_1_7_2g40_A   75.19%    failed      1.61%
+  15  c_124_1_6_1sbq_A   75.19%    failed      0.13%
+  16  c_124_1_6_1wkc_A   74.58%    failed      0.00%
+  17  c_124_1_2_1poi_A   52.04%    passed      9.70%
+  18  c_124_1_0_3cdk_A   65.36%    passed     68.88%
+  19  c_124_1_0_3rrl_A   65.20%    passed     12.16%
+  20  c_124_1_0_5dbn_A   67.47%    failed      4.81%
+  21  c_124_1_5_1t9k_A   48.56%    passed     22.07%
+  22  c_124_1_5_1vb5_A   58.55%    passed     10.05%
+  23  c_124_1_5_1w2w_A   68.08%    failed      1.73%
+WARNING: 22 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              63.54%  8 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading input tree file /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/c_124_1/Crystal_Tree/Partition/Treeing/partition_file.nex.treefile ...
+WARNING: Default model LG may be under-fitting. Use option '-m TEST' to determine the best-fit model.
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -25965.666
+Optimal log-likelihood: -25965.666
+Parameters optimization took 1 rounds (0.005 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -25965.666
+Total tree length: 18.468
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.017 sec (0h:0m:0s)
+Total wall-clock time used: 0.028 sec (0h:0m:0s)
+Computing site concordance factor using likelihood...
+0.112 sec
+Tree with site concordance factors written to concord.cf.tree
+Annotated tree (best viewed in FigTree) written to concord.cf.tree.nex
+Tree with branch IDs written to concord.cf.branch
+Concordance factors per branch printed to concord.cf.stat
+
+Analysis results written to: 
+  IQ-TREE report:                concord.iqtree
+  Maximum-likelihood tree:       concord.treefile
+  Screen log file:               concord.log
+
+Date and Time: Fri Jun  6 12:23:30 2025

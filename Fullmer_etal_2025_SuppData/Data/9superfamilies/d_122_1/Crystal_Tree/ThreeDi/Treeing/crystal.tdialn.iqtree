@@ -1,0 +1,210 @@
+IQ-TREE 1.6.8 built Oct 28 2018
+
+Input file name: crystal.tdialn
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 233924
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 26 sequences with 372 amino-acid sites
+Number of constant sites: 122 (= 32.7957% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 122 (= 32.7957% of all sites)
+Number of parsimony informative sites: 207
+Number of distinct site patterns: 284
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0338
+  pi(R) = 0.0257
+  pi(N) = 0.0237
+  pi(D) = 0.1131
+  pi(C) = 0.0386
+  pi(Q) = 0.0660
+  pi(E) = 0.0175
+  pi(G) = 0.0400
+  pi(H) = 0.0344
+  pi(I) = 0.0426
+  pi(L) = 0.0702
+  pi(K) = 0.0396
+  pi(M) = 0.0211
+  pi(F) = 0.0241
+  pi(P) = 0.0706
+  pi(S) = 0.0473
+  pi(T) = 0.0227
+  pi(W) = 0.0438
+  pi(Y) = 0.0163
+  pi(V) = 0.2089
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 3.7519
+
+ Category  Relative_rate  Proportion
+  1         0.4402         0.2500
+  2         0.7662         0.2500
+  3         1.0844         0.2500
+  4         1.7093         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -6772.7873 (s.e. 278.7373)
+Unconstrained log-likelihood (without tree): -1916.2281
+Number of free parameters (#branches + #model parameters): 69
+Akaike information criterion (AIC) score: 13683.5746
+Corrected Akaike information criterion (AICc) score: 13715.5614
+Bayesian information criterion (BIC) score: 13953.9783
+
+Total tree length (sum of branch lengths): 10.0752
+Sum of internal branch lengths: 3.2160 (31.9196% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'd_122_1_1_1uym_A' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++----d_122_1_1_1uym_A
+|
+|        +--d_122_1_1_4gqt_A
+|     +--| (27)
+|     |  +-------d_122_1_1_4x9l_A
+|  +--| (21)
+|  |  +--d_122_1_1_1bgq_A
++--| (21)
+|  |  +--d_122_1_1_3k60_A
+|  +--| (42)
+|     |     +--d_122_1_1_1yt2_A
+|     |  +--| (89)
+|     |  |  +--d_122_1_1_2esa_A
+|     +--| (52)
+|        |  +----------d_122_1_0_5f3k_A
+|        +--| (57)
+|           |                                 +--d_122_1_0_4hz0_A
+|           |                             +---| (98)
+|           |                             |   +--d_122_1_2_1s14_A
+|           |                          +--| (26)
+|           |                          |  |  +-----d_122_1_0_4b6c_A
+|           |                          |  +--| (42)
+|           |                          |     +--d_122_1_0_4bae_A
+|           |                       +--| (36)
+|           |                       |  |     +--d_122_1_0_4p8o_A
+|           |                       |  |  +--| (86)
+|           |                       |  |  |  +--d_122_1_0_4urm_A
+|           |                       |  +--| (59)
+|           |                       |     +----d_122_1_2_3g7e_A
+|           |                    +--| (26)
+|           |                    |  +----d_122_1_0_4urn_A
+|           |                 +--| (19)
+|           |                 |  +--d_122_1_0_4em7_A
+|           |         +-------| (76)
+|           |         |       +--d_122_1_0_4hz5_A
+|           +---------| (82)
+|                     |                     +-------d_122_1_3_1ys3_A
+|                     |                  +--| (64)
+|                     |                  |  +--------d_122_1_3_1id0_A
+|                     |               +--| (49)
+|                     |               |  |  +-----------------d_122_1_3_1bxd_A
+|                     |               |  +--| (43)
+|                     |               |     +-------d_122_1_3_1r62_A
+|                     |            +--| (52)
+|                     |            |  +------d_122_1_3_2c2a_A
+|                     +------------| (100)
+|                                  +-----------------d_122_1_3_1tid_A
+|
+|  +-----d_122_1_1_2xhx_A
++--| (50)
+   +--d_122_1_1_4xc0_A
+
+Tree in newick format:
+
+(d_122_1_1_1uym_A:0.2234812436,(((d_122_1_1_4gqt_A:0.0713229825,d_122_1_1_4x9l_A:0.3741916184)27:0.0183384316,d_122_1_1_1bgq_A:0.1351480381)21:0.0251203580,(d_122_1_1_3k60_A:0.1601584981,((d_122_1_1_1yt2_A:0.1553824654,d_122_1_1_2esa_A:0.1343921997)89:0.1005670561,(d_122_1_0_5f3k_A:0.4851382854,(((((((d_122_1_0_4hz0_A:0.1223865702,d_122_1_2_1s14_A:0.1483708017)98:0.1928572536,(d_122_1_0_4b6c_A:0.2993109394,d_122_1_0_4bae_A:0.1499992870)42:0.0989232299)26:0.0274784112,((d_122_1_0_4p8o_A:0.1153096680,d_122_1_0_4urm_A:0.1425466769)86:0.1075013764,d_122_1_2_3g7e_A:0.2519809140)59:0.0508816831)36:0.0705290603,d_122_1_0_4urn_A:0.2493219693)26:0.0459449595,d_122_1_0_4em7_A:0.1482593107)19:0.0935920257,d_122_1_0_4hz5_A:0.1028977451)76:0.3586285439,((((d_122_1_3_1ys3_A:0.3809077043,d_122_1_3_1id0_A:0.3912858328)64:0.1658343485,(d_122_1_3_1bxd_A:0.7852273544,d_122_1_3_1r62_A:0.3859483724)43:0.1304557127)49:0.1191984734,d_122_1_3_2c2a_A:0.3046391887)52:0.1255309911,d_122_1_3_1tid_A:0.7840484689)100:0.5881519781)82:0.4714676379)57:0.1584097653)52:0.1033212851)42:0.0823878460)21:0.0318980640,(d_122_1_1_2xhx_A:0.2630825603,d_122_1_1_4xc0_A:0.0944928003)50:0.0489458223);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100bootstrap trees
+Log-likelihood of consensus tree: -6778.560375
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----d_122_1_1_1uym_A
+|
+|        +--d_122_1_1_4gqt_A
+|     +--| (27)
+|     |  +-------d_122_1_1_4x9l_A
+|  +--| (21)
+|  |  +--d_122_1_1_1bgq_A
++--| (21)
+|  |  +--d_122_1_1_3k60_A
+|  +--| (42)
+|     |     +--d_122_1_1_1yt2_A
+|     |  +--| (89)
+|     |  |  +--d_122_1_1_2esa_A
+|     +--| (52)
+|        |  +----------d_122_1_0_5f3k_A
+|        +--| (57)
+|           |                             +--d_122_1_0_4hz0_A
+|           |                         +---| (98)
+|           |                         |   +--d_122_1_2_1s14_A
+|           |                      +--| (26)
+|           |                      |  |  +-----d_122_1_0_4b6c_A
+|           |                      |  +--| (42)
+|           |                      |     +--d_122_1_0_4bae_A
+|           |                   +--| (36)
+|           |                   |  |     +--d_122_1_0_4p8o_A
+|           |                   |  |  +--| (86)
+|           |                   |  |  |  +--d_122_1_0_4urm_A
+|           |                   |  +--| (59)
+|           |                   |     +----d_122_1_2_3g7e_A
+|           |           +-------| (76)
+|           |           |       |     +--d_122_1_0_4em7_A
+|           |           |       |  +--| (23)
+|           |           |       |  |  +---d_122_1_0_4hz5_A
+|           |           |       +--| (36)
+|           |           |          +----d_122_1_0_4urn_A
+|           +-----------| (82)
+|                       |                   +-------d_122_1_3_1ys3_A
+|                       |                +--| (64)
+|                       |                |  +--------d_122_1_3_1id0_A
+|                       |             +--| (49)
+|                       |             |  |  +-----------------d_122_1_3_1bxd_A
+|                       |             |  +--| (43)
+|                       |             |     +--------d_122_1_3_1r62_A
+|                       |          +--| (52)
+|                       |          |  +-----d_122_1_3_2c2a_A
+|                       +----------| (100)
+|                                  +-----------------d_122_1_3_1tid_A
+|
+|  +-----d_122_1_1_2xhx_A
++--| (50)
+   +--d_122_1_1_4xc0_A
+
+
+Consensus tree in newick format: 
+
+(d_122_1_1_1uym_A:0.2233753386,(((d_122_1_1_4gqt_A:0.0713766416,d_122_1_1_4x9l_A:0.3737869315)27:0.0183374447,d_122_1_1_1bgq_A:0.1353250981)21:0.0254181469,(d_122_1_1_3k60_A:0.1601621516,((d_122_1_1_1yt2_A:0.1531586066,d_122_1_1_2esa_A:0.1355666621)89:0.1022112129,(d_122_1_0_5f3k_A:0.4897038456,(((((d_122_1_0_4hz0_A:0.1228746151,d_122_1_2_1s14_A:0.1482320708)98:0.1954275690,(d_122_1_0_4b6c_A:0.2998699077,d_122_1_0_4bae_A:0.1494326971)42:0.0966288783)26:0.0277194537,((d_122_1_0_4p8o_A:0.1166823462,d_122_1_0_4urm_A:0.1408607381)86:0.1069751208,d_122_1_2_3g7e_A:0.2542784564)59:0.0517840506)36:0.0609649251,((d_122_1_0_4em7_A:0.1489738369,d_122_1_0_4hz5_A:0.1944462270)23:0.0414687028,d_122_1_0_4urn_A:0.2528868695)36:0.0146523536)76:0.3659071327,((((d_122_1_3_1ys3_A:0.3830444132,d_122_1_3_1id0_A:0.3876428994)64:0.1567256130,(d_122_1_3_1bxd_A:0.7826730002,d_122_1_3_1r62_A:0.3887135024)43:0.1360983226)49:0.1328337989,d_122_1_3_2c2a_A:0.2865240339)52:0.1300509606,d_122_1_3_1tid_A:0.7951151467)100:0.5007732146)82:0.5280901936)57:0.1475061159)52:0.1019446208)42:0.0823844165)21:0.0312509671,(d_122_1_1_2xhx_A:0.2622897807,d_122_1_1_4xc0_A:0.0947483298)50:0.0485643114);
+
+TIME STAMP
+----------
+
+Date and time: Sat May 31 07:13:57 2025
+Total CPU time used: 18.063371 seconds (0h:0m:18s)
+Total wall-clock time used: 18.18891096 seconds (0h:0m:18s)
+

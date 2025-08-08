@@ -1,0 +1,81 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    sc-sbs-383386 (AVX512, FMA3, 32 GB RAM)
+Command: /Users/mful870/Bioinformatics_Programs/iqtree-2.4.0-macOS/bin/iqtree2 -redo -te crystal.tdialn.treefile -s crystal.tdialn --scfl 100 -blfix -m /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat --prefix concord
+Seed:    524115 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  6 12:18:16 2025
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file crystal.tdialn ... Fasta format detected
+Reading fasta file: done in 0.000272036 secs using 81.24% CPU
+Alignment most likely contains protein sequences
+Alignment has 13 sequences with 354 columns, 268 distinct patterns
+115 parsimony-informative, 110 singleton sites, 129 constant sites
+WARNING: Some sequence names are changed as follows:
+b_122_1_12+2zkd_A -> b_122_1_12_2zkd_A
+b_122_1_12+4pw5_A -> b_122_1_12_4pw5_A
+b_122_1_10+1zbo_A -> b_122_1_10_1zbo_A
+b_122_1_10+2ane_A -> b_122_1_10_2ane_A
+b_122_1_8+1zce_A -> b_122_1_8_1zce_A
+b_122_1_8+2ar1_A -> b_122_1_8_2ar1_A
+b_122_1_8+1wmm_A -> b_122_1_8_1wmm_A
+b_122_1_6+1s04_A -> b_122_1_6_1s04_A
+b_122_1_6+2z0t_A -> b_122_1_6_2z0t_A
+b_122_1_6+1xne_A -> b_122_1_6_1xne_A
+b_122_1_7+1te7_A -> b_122_1_7_1te7_A
+b_122_1_5+1wk2_A -> b_122_1_5_1wk2_A
+b_122_1_11+2gmq_A -> b_122_1_11_2gmq_A
+
+                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.19481e-05 secs using 87.64% CPU
+   1  b_122_1_12_2zkd_A   40.68%    passed      6.46%
+   2  b_122_1_12_4pw5_A   46.61%    passed     93.78%
+   3  b_122_1_10_1zbo_A   44.35%    passed     51.49%
+   4  b_122_1_10_2ane_A   68.93%    passed     30.80%
+   5  b_122_1_8_1zce_A    58.76%    passed     95.48%
+   6  b_122_1_8_2ar1_A    55.65%    passed     62.69%
+   7  b_122_1_8_1wmm_A    59.60%    passed     92.10%
+   8  b_122_1_6_1s04_A    68.93%    passed     11.39%
+   9  b_122_1_6_2z0t_A    69.21%    passed     67.03%
+  10  b_122_1_6_1xne_A    68.08%    passed     47.63%
+  11  b_122_1_7_1te7_A    70.90%    passed     95.38%
+  12  b_122_1_5_1wk2_A    76.27%    passed     26.70%
+  13  b_122_1_11_2gmq_A   72.03%    passed     20.11%
+WARNING: 10 sequences contain more than 50% gaps/ambiguity
+****  TOTAL               61.54%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading input tree file crystal.tdialn.treefile ...
+Reading model parameters from file /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3608.504
+Optimal log-likelihood: -3608.504
+Parameters optimization took 1 rounds (0.001 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -3608.504
+Total tree length: 8.745
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.010 sec (0h:0m:0s)
+Total wall-clock time used: 0.015 sec (0h:0m:0s)
+Computing site concordance factor using likelihood...
+0.014 sec
+Tree with site concordance factors written to concord.cf.tree
+Annotated tree (best viewed in FigTree) written to concord.cf.tree.nex
+Tree with branch IDs written to concord.cf.branch
+Concordance factors per branch printed to concord.cf.stat
+
+Analysis results written to: 
+  IQ-TREE report:                concord.iqtree
+  Maximum-likelihood tree:       concord.treefile
+  Screen log file:               concord.log
+
+Date and Time: Fri Jun  6 12:18:16 2025

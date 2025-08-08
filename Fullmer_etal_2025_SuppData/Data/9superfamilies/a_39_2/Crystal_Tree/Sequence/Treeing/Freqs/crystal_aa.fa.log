@@ -1,0 +1,117 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    sc-sbs-383386 (AVX512, FMA3, 32 GB RAM)
+Command: /Users/mful870/Bioinformatics_Programs/iqtree-2.4.0-macOS/bin/iqtree2 -redo -s crystal_aa.fa -m LG+F
+Seed:    866820 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  6 12:57:32 2025
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file crystal_aa.fa ... Fasta format detected
+Reading fasta file: done in 8.60691e-05 secs using 84.82% CPU
+Alignment most likely contains protein sequences
+Alignment has 13 sequences with 158 columns, 158 distinct patterns
+120 parsimony-informative, 31 singleton sites, 7 constant sites
+WARNING: Some sequence names are changed as follows:
+a_39_2_1+1qwv_A -> a_39_2_1_1qwv_A
+a_39_2_1+1xfr_A -> a_39_2_1_1xfr_A
+a_39_2_1+2kph_A -> a_39_2_1_2kph_A
+a_39_2_0+2wc6_A -> a_39_2_0_2wc6_A
+a_39_2_0+3q8i_A -> a_39_2_0_3q8i_A
+a_39_2_1+1oof_A -> a_39_2_1_1oof_A
+a_39_2_1+1org_A -> a_39_2_1_1org_A
+a_39_2_0+3k1e_A -> a_39_2_0_3k1e_A
+a_39_2_0+3ogn_A -> a_39_2_0_3ogn_A
+a_39_2_1+3d73_A -> a_39_2_1_3d73_A
+a_39_2_0+3r72_A -> a_39_2_0_3r72_A
+a_39_2_0+4pt1_A -> a_39_2_0_4pt1_A
+a_39_2_1+1c3y_A -> a_39_2_1_1c3y_A
+
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.19209e-05 secs using 83.89% CPU
+   1  a_39_2_1_1qwv_A   10.13%    passed     80.92%
+   2  a_39_2_1_1xfr_A   18.99%    passed     46.10%
+   3  a_39_2_1_2kph_A   10.13%    passed     97.93%
+   4  a_39_2_0_2wc6_A   10.76%    passed     74.40%
+   5  a_39_2_0_3q8i_A   22.15%    failed      1.04%
+   6  a_39_2_1_1oof_A   21.52%    passed     60.71%
+   7  a_39_2_1_1org_A   25.32%    passed     37.32%
+   8  a_39_2_0_3k1e_A   21.52%    passed     57.94%
+   9  a_39_2_0_3ogn_A   21.52%    passed     75.15%
+  10  a_39_2_1_3d73_A   24.68%    passed     72.58%
+  11  a_39_2_0_3r72_A   22.78%    passed     53.24%
+  12  a_39_2_0_4pt1_A   18.35%    passed     86.24%
+  13  a_39_2_1_1c3y_A   31.65%    passed     34.29%
+****  TOTAL             19.96%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3705.946
+Optimal log-likelihood: -3568.642
+Parameters optimization took 1 rounds (0.004 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00562 secs using 97.42% CPU
+Computing ML distances took 0.005800 sec (of wall-clock time) 0.005550 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 5.19753e-05 secs using 65.42% CPU
+Computing RapidNJ tree took 0.000170 sec (of wall-clock time) 0.000092 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3571.188
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.098 second
+Computing log-likelihood of 98 initial trees ... 0.107 seconds
+Current best score: -3568.642
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3560.622
+Iteration 10 / LogL: -3560.655 / Time: 0h:0m:0s
+Iteration 20 / LogL: -3560.657 / Time: 0h:0m:0s
+Finish initializing candidate tree set (4)
+Current best tree score: -3560.622 / CPU time: 0.539
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -3560.754 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 40 / LogL: -3561.076 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 50 / LogL: -3560.642 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 60 / LogL: -3560.633 / Time: 0h:0m:1s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -3560.621
+Iteration 70 / LogL: -3560.816 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 80 / LogL: -3566.999 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 90 / LogL: -3560.727 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 100 / LogL: -3560.721 / Time: 0h:0m:1s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3560.621
+Optimal log-likelihood: -3560.619
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -3560.619
+Total tree length: 13.106
+
+Total number of iterations: 102
+CPU time used for tree search: 2.081 sec (0h:0m:2s)
+Wall-clock time used for tree search: 1.936 sec (0h:0m:1s)
+Total CPU time used: 2.122 sec (0h:0m:2s)
+Total wall-clock time used: 1.979 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                crystal_aa.fa.iqtree
+  Maximum-likelihood tree:       crystal_aa.fa.treefile
+  Likelihood distances:          crystal_aa.fa.mldist
+  Screen log file:               crystal_aa.fa.log
+
+Date and Time: Fri Jun  6 12:57:34 2025

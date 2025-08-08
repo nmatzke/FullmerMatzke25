@@ -1,0 +1,107 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: crystal.tdialn
+User tree file name: crystal.tdialn.treefile
+Type of analysis: tree reconstruction
+Random seed number: 524115
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 13 sequences with 354 amino-acid sites
+Number of constant sites: 129 (= 36.4407% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 129 (= 36.4407% of all sites)
+Number of parsimony informative sites: 115
+Number of distinct site patterns: 268
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -3608.5037 (s.e. 149.3439)
+Unconstrained log-likelihood (without tree): -1900.1398
+Number of free parameters (#branches + #model parameters): 0
+Akaike information criterion (AIC) score: 7217.0073
+Corrected Akaike information criterion (AICc) score: 7217.0073
+Bayesian information criterion (BIC) score: 7217.0073
+
+Total tree length (sum of branch lengths): 8.7448
+Sum of internal branch lengths: 2.6825 (30.6747% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0028) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'b_122_1_12_2zkd_A' is drawn at root
+
++--b_122_1_12_2zkd_A
+|
++-----b_122_1_12_4pw5_A
+|
+|                          +----b_122_1_10_1zbo_A
+|                      +---| (62/74.8)
+|                      |   +--------b_122_1_10_2ane_A
+|                 +----| (69/56.3)
+|                 |    +-----------------------b_122_1_11_2gmq_A
+|              +**| (44/38.8)
+|              |  |               +-----------b_122_1_8_1zce_A
+|              |  |           +---| (82/48.5)
+|              |  |           |   +-------b_122_1_8_2ar1_A
+|              |  |      +----| (87/64)
+|              |  |      |    +----------b_122_1_8_1wmm_A
+|              |  +------| (74/53)
+|              |         |                       +---------b_122_1_6_1s04_A
+|              |         |                    +--| (67/42.8)
+|              |         |                    |  +-----------b_122_1_6_1xne_A
+|              |         |     +--------------| (96/59.9)
+|              |         |     |              +--b_122_1_6_2z0t_A
+|              |         +-----| (70/35.7)
+|              |               +---------------------b_122_1_7_1te7_A
++--------------| (98/55.5)
+               +-----------------------b_122_1_5_1wk2_A
+
+Tree in newick format:
+
+(b_122_1_12_2zkd_A:0.0685941900,b_122_1_12_4pw5_A:0.2617166840,((((b_122_1_10_1zbo_A:0.2263408370,b_122_1_10_2ane_A:0.3927574707)62/74.8:0.1606003055,b_122_1_11_2gmq_A:0.9647122254)69/56.3:0.2091442103,(((b_122_1_8_1zce_A:0.4799891166,b_122_1_8_2ar1_A:0.3435684923)82/48.5:0.1932774668,b_122_1_8_1wmm_A:0.4447671400)87/64:0.2313367620,(((b_122_1_6_1s04_A:0.4208033278,b_122_1_6_1xne_A:0.4854731399)67/42.8:0.1445241807,b_122_1_6_2z0t_A:0.1520711137)96/59.9:0.6147691961,b_122_1_7_1te7_A:0.8706400288)70/35.7:0.2440343837)74/53:0.2797991316)44/38.8:0.0016306527,b_122_1_5_1wk2_A:0.9509596010)98/55.5:0.6033342953);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t concord.treefile -m "/Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat" --length 354
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s crystal.tdialn --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s crystal.tdialn --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun  6 12:18:16 2025
+Total CPU time used: 0.010371 seconds (0h:0m:0s)
+Total wall-clock time used: 0.0459719 seconds (0h:0m:0s)
+

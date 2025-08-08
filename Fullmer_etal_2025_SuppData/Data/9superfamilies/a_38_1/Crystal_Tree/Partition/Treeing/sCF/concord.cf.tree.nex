@@ -1,0 +1,5 @@
+#NEXUS
+[ See concord.cf.stat for branch annotation meanings. This file is best viewed in FigTree. ]
+begin trees;
+  tree tree_1 = (a_38_1_1_1an2_A:0.5084265579,(((a_38_1_1_1mdy_A:0.7714576100,(a_38_1_1_1am9_A:0.1801249019,a_38_1_1_1ukl_C:0.2243179415):0.3484884454[&label="98",sCF="97.97",sCF/sDF1/sDF2="97.97/0/2.03",sCF_N="4.5",sCF_N/sDF1_N/sDF2_N="4.5/0/0.09",sDF1="0",sDF1_N="0",sDF2="2.03",sDF2_N="0.09",sN="4.59"]):0.1567817835[&label="43",sCF="6.18",sCF/sDF1/sDF2="6.18/38.29/55.53",sCF_N="0.3",sCF_N/sDF1_N/sDF2_N="0.3/1.6/2.14",sDF1="38.29",sDF1_N="1.6",sDF2="55.53",sDF2_N="2.14",sN="4.04"],a_38_1_1_1nlw_A:0.8936978491):0.0220492235[&label="23",sCF="26.21",sCF/sDF1/sDF2="26.21/38.96/32.82",sCF_N="1.15",sCF_N/sDF1_N/sDF2_N="1.15/1.72/1.56",sDF1="38.96",sDF1_N="1.72",sDF2="32.82",sDF2_N="1.56",sN="4.43"],a_38_1_1_1a0a_A:1.7395302190):0.1291595214[&label="36",sCF="31.65",sCF/sDF1/sDF2="31.65/23.96/44.39",sCF_N="2.04",sCF_N/sDF1_N/sDF2_N="2.04/1.61/2.88",sDF1="23.96",sDF1_N="1.61",sDF2="44.39",sDF2_N="2.88",sN="6.53"],a_38_1_0_5i4z_A:0.5434897672);
+end;

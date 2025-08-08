@@ -1,0 +1,134 @@
+IQ-TREE 1.6.8 built Oct 28 2018
+
+Input file name: crystal.tdialn
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 788470
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 7 sequences with 100 amino-acid sites
+Number of constant sites: 40 (= 40% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 40 (= 40% of all sites)
+Number of parsimony informative sites: 12
+Number of distinct site patterns: 61
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0020
+  pi(R) = 0.0117
+  pi(N) = 0.0000
+  pi(D) = 0.1174
+  pi(C) = 0.0509
+  pi(Q) = 0.0196
+  pi(E) = 0.0000
+  pi(G) = 0.0020
+  pi(H) = 0.0039
+  pi(I) = 0.0000
+  pi(L) = 0.0313
+  pi(K) = 0.0000
+  pi(M) = 0.0000
+  pi(F) = 0.0020
+  pi(P) = 0.0881
+  pi(S) = 0.0470
+  pi(T) = 0.0000
+  pi(W) = 0.0000
+  pi(Y) = 0.0000
+  pi(V) = 0.6242
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 2.0841
+
+ Category  Relative_rate  Proportion
+  1         0.3031         0.2500
+  2         0.6637         0.2500
+  3         1.0720         0.2500
+  4         1.9613         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -538.1410 (s.e. 47.3206)
+Unconstrained log-likelihood (without tree): -382.5758
+Number of free parameters (#branches + #model parameters): 31
+Akaike information criterion (AIC) score: 1138.2819
+Corrected Akaike information criterion (AICc) score: 1167.4584
+Bayesian information criterion (BIC) score: 1219.0422
+
+Total tree length (sum of branch lengths): 2.6070
+Sum of internal branch lengths: 0.3558 (13.6486% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'a_38_1_1_1an2_A' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++------------a_38_1_1_1an2_A
+|
+|             +**a_38_1_1_1mdy_A
+|     +-------| (73)
+|     |       +---------------------------------------------a_38_1_1_1a0a_A
+|  +--| (20)
+|  |  |  +-----a_38_1_1_1am9_A
+|  |  +--| (48)
+|  |     +---------a_38_1_1_1ukl_C
++--| (49)
+|  +-------a_38_1_0_5i4z_A
+|
++---------------a_38_1_1_1nlw_A
+
+Tree in newick format:
+
+(a_38_1_1_1an2_A:0.2916600788,(((a_38_1_1_1mdy_A:0.0000023670,a_38_1_1_1a0a_A:1.0357003644)73:0.1921871238,(a_38_1_1_1am9_A:0.1348095038,a_38_1_1_1ukl_C:0.2357283970)48:0.0628863773)20:0.0353469708,a_38_1_0_5i4z_A:0.1810345317)49:0.0653984011,a_38_1_1_1nlw_A:0.3722517724);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100bootstrap trees
+Log-likelihood of consensus tree: -538.140930
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++------------a_38_1_1_1an2_A
+|
+|             +--a_38_1_1_1mdy_A
+|     +-------| (73)
+|     |       +---------------------------------------------a_38_1_1_1a0a_A
+|  +--| (20)
+|  |  |  +-----a_38_1_1_1am9_A
+|  |  +--| (48)
+|  |     +---------a_38_1_1_1ukl_C
++--| (49)
+|  +-------a_38_1_0_5i4z_A
+|
++---------------a_38_1_1_1nlw_A
+
+
+Consensus tree in newick format: 
+
+(a_38_1_1_1an2_A:0.2915808140,(((a_38_1_1_1mdy_A:0.0000022752,a_38_1_1_1a0a_A:1.0333475388)73:0.1919770427,(a_38_1_1_1am9_A:0.1348736861,a_38_1_1_1ukl_C:0.2353639939)48:0.0627394955)20:0.0354133914,a_38_1_0_5i4z_A:0.1808934514)49:0.0656410125,a_38_1_1_1nlw_A:0.3720124666);
+
+TIME STAMP
+----------
+
+Date and time: Sun Jun  1 14:06:41 2025
+Total CPU time used: 0.734901 seconds (0h:0m:0s)
+Total wall-clock time used: 0.779998064 seconds (0h:0m:0s)
+

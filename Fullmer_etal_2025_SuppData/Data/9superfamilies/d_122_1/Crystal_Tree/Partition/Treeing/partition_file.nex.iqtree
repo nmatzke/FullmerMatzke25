@@ -1,0 +1,219 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Partition file name: partition_file.nex
+Input file name: Alns/
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 694732
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 26 taxa with 2 partitions and 744 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	AA	26	372	300	217	108	108	sequence
+   2	AA	26	372	284	207	122	122	tdi
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  LG+I+G4        1.2623  LG+I{0.0188115}+G4{3.09944}
+   2  /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat 0.7377  /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -14727.3113 (s.e. 416.9224)
+Unconstrained log-likelihood (without tree): -3952.6271
+Number of free parameters (#branches + #model parameters): 52
+Akaike information criterion (AIC) score: 29558.6226
+Corrected Akaike information criterion (AICc) score: 29566.5995
+Bayesian information criterion (BIC) score: 29798.4487
+
+Total tree length (sum of branch lengths): 14.3943
+Sum of internal branch lengths: 5.7250 (39.7727% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'd_122_1_1_1uym_A' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++--d_122_1_1_1uym_A
+|
+|     +--d_122_1_1_4gqt_A
+|  +--| (39)
+|  |  +--d_122_1_1_1bgq_A
++--| (75)
+|  |        +--d_122_1_1_3k60_A
+|  |     +--| (52)
+|  |     |  |     +--d_122_1_1_1yt2_A
+|  |     |  |  +--| (98)
+|  |     |  |  |  +--d_122_1_1_2esa_A
+|  |     |  +--| (69)
+|  |     |     |  +-------d_122_1_0_5f3k_A
+|  |     |     +--| (59)
+|  |     |        |                                        +--d_122_1_0_4hz0_A
+|  |     |        |                                  +-----| (99)
+|  |     |        |                                  |     +--d_122_1_2_1s14_A
+|  |     |        |                               +--| (43)
+|  |     |        |                               |  |     +--d_122_1_0_4p8o_A
+|  |     |        |                               |  |  +--| (94)
+|  |     |        |                               |  |  |  +--d_122_1_0_4urm_A
+|  |     |        |                               |  +--| (42)
+|  |     |        |                               |     +---d_122_1_2_3g7e_A
+|  |     |        |                            +--| (67)
+|  |     |        |                            |  |  +--d_122_1_0_4b6c_A
+|  |     |        |                            |  +--| (95)
+|  |     |        |                            |     +--d_122_1_0_4bae_A
+|  |     |        |                         +--| (26)
+|  |     |        |                         |  +--d_122_1_0_4urn_A
+|  |     |        |                      +--| (26)
+|  |     |        |                      |  +--d_122_1_0_4hz5_A
+|  |     |        |            +---------| (88)
+|  |     |        |            |         +--d_122_1_0_4em7_A
+|  |     |        +------------| (94)
+|  |     |                     |                          +---------d_122_1_3_1ys3_A
+|  |     |                     |                       +--| (61)
+|  |     |                     |                       |  +---------d_122_1_3_1id0_A
+|  |     |                     |                    +--| (45)
+|  |     |                     |                    |  +---------------d_122_1_3_1bxd_A
+|  |     |                     |                 +--| (50)
+|  |     |                     |                 |  +-----------d_122_1_3_1r62_A
+|  |     |                     |              +--| (58)
+|  |     |                     |              |  +-----d_122_1_3_2c2a_A
+|  |     |                     +--------------| (100)
+|  |     |                                    +---------------d_122_1_3_1tid_A
+|  |  +--| (33)
+|  |  |  +--d_122_1_1_4x9l_A
+|  +--| (37)
+|     +--d_122_1_1_4xc0_A
+|
++--d_122_1_1_2xhx_A
+
+Tree in newick format:
+
+(d_122_1_1_1uym_A:0.1236751368,((d_122_1_1_4gqt_A:0.1252832116,d_122_1_1_1bgq_A:0.2184359156)39:0.0464436333,(((d_122_1_1_3k60_A:0.1335076682,((d_122_1_1_1yt2_A:0.0835061736,d_122_1_1_2esa_A:0.0953053966)98:0.2854477559,(d_122_1_0_5f3k_A:0.5844667765,(((((((d_122_1_0_4hz0_A:0.0582596918,d_122_1_2_1s14_A:0.0673366661)99:0.4678714273,((d_122_1_0_4p8o_A:0.0484995109,d_122_1_0_4urm_A:0.0775134237)94:0.2401907205,d_122_1_2_3g7e_A:0.3346065070)42:0.0408609292)43:0.0653800888,(d_122_1_0_4b6c_A:0.1843600901,d_122_1_0_4bae_A:0.0601727994)95:0.2852972848)67:0.1643288539,d_122_1_0_4urn_A:0.2682530929)26:0.0416057576,d_122_1_0_4hz5_A:0.1921833491)26:0.0549792717,d_122_1_0_4em7_A:0.1646195634)88:0.7237022061,(((((d_122_1_3_1ys3_A:0.7246791704,d_122_1_3_1id0_A:0.7249119375)61:0.1657759566,d_122_1_3_1bxd_A:1.1788827796)45:0.1358165229,d_122_1_3_1r62_A:0.9337159071)50:0.1250852072,d_122_1_3_2c2a_A:0.4734347119)58:0.2856082988,d_122_1_3_1tid_A:1.2147685331)100:1.0815773242)94:0.9681783892)59:0.1625342882)69:0.1677139082)52:0.0614139240,d_122_1_1_4x9l_A:0.2568422616)33:0.0311670865,d_122_1_1_4xc0_A:0.1939519069)37:0.0591132294)75:0.0649350512,d_122_1_1_2xhx_A:0.1481464942);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -14728.181835
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--d_122_1_1_1uym_A
+|
+|     +--d_122_1_1_4gqt_A
+|  +--| (39)
+|  |  +--d_122_1_1_1bgq_A
++--| (75)
+|  |        +--d_122_1_1_3k60_A
+|  |     +--| (52)
+|  |     |  |      +--d_122_1_1_1yt2_A
+|  |     |  |  +---| (98)
+|  |     |  |  |   +--d_122_1_1_2esa_A
+|  |     |  +--| (69)
+|  |     |     |  +-------d_122_1_0_5f3k_A
+|  |     |     +--| (59)
+|  |     |        |                                  +--d_122_1_0_4hz0_A
+|  |     |        |                            +-----| (99)
+|  |     |        |                            |     +--d_122_1_2_1s14_A
+|  |     |        |                         +--| (43)
+|  |     |        |                         |  |     +--d_122_1_0_4p8o_A
+|  |     |        |                         |  |  +--| (94)
+|  |     |        |                         |  |  |  +--d_122_1_0_4urm_A
+|  |     |        |                         |  +--| (42)
+|  |     |        |                         |     +---d_122_1_2_3g7e_A
+|  |     |        |                      +--| (67)
+|  |     |        |                      |  |  +--d_122_1_0_4b6c_A
+|  |     |        |                      |  +--| (95)
+|  |     |        |                      |     +--d_122_1_0_4bae_A
+|  |     |        |            +---------| (88)
+|  |     |        |            |         |  +--d_122_1_0_4em7_A
+|  |     |        |            |         +--| (34)
+|  |     |        |            |            |  +--d_122_1_0_4hz5_A
+|  |     |        |            |            +--| (18)
+|  |     |        |            |               +--d_122_1_0_4urn_A
+|  |     |        +------------| (94)
+|  |     |                     |                          +---------d_122_1_3_1ys3_A
+|  |     |                     |                       +--| (61)
+|  |     |                     |                       |  +---------d_122_1_3_1id0_A
+|  |     |                     |                    +--| (45)
+|  |     |                     |                    |  +---------------d_122_1_3_1bxd_A
+|  |     |                     |                 +--| (50)
+|  |     |                     |                 |  +------------d_122_1_3_1r62_A
+|  |     |                     |             +---| (58)
+|  |     |                     |             |   +-----d_122_1_3_2c2a_A
+|  |     |                     +-------------| (100)
+|  |     |                                   +---------------d_122_1_3_1tid_A
+|  |  +--| (33)
+|  |  |  +--d_122_1_1_4x9l_A
+|  +--| (37)
+|     +--d_122_1_1_4xc0_A
+|
++--d_122_1_1_2xhx_A
+
+
+Consensus tree in newick format: 
+
+(d_122_1_1_1uym_A:0.1237176336,((d_122_1_1_4gqt_A:0.1253695704,d_122_1_1_1bgq_A:0.2185859537)39:0.0464878847,(((d_122_1_1_3k60_A:0.1336468764,((d_122_1_1_1yt2_A:0.0831462337,d_122_1_1_2esa_A:0.0957417373)98:0.2878460594,(d_122_1_0_5f3k_A:0.5870670168,(((((d_122_1_0_4hz0_A:0.0584824887,d_122_1_2_1s14_A:0.0672404152)99:0.4663358020,((d_122_1_0_4p8o_A:0.0496374544,d_122_1_0_4urm_A:0.0764040092)94:0.2406831857,d_122_1_2_3g7e_A:0.3362876911)42:0.0415105499)43:0.0738146992,(d_122_1_0_4b6c_A:0.1862855246,d_122_1_0_4bae_A:0.0586240612)95:0.2751444592)67:0.1162549359,(d_122_1_0_4em7_A:0.2057831207,(d_122_1_0_4hz5_A:0.1791361749,d_122_1_0_4urn_A:0.2733324793)18:0.0461849947)34:0.0572063928)88:0.7190550014,(((((d_122_1_3_1ys3_A:0.7237906214,d_122_1_3_1id0_A:0.7258017375)61:0.1633155042,d_122_1_3_1bxd_A:1.1800015650)45:0.1365626895,d_122_1_3_1r62_A:0.9348891239)50:0.1296274437,d_122_1_3_2c2a_A:0.4692329986)58:0.2927969953,d_122_1_3_1tid_A:1.2107631195)100:1.0521663092)94:0.9643125169)59:0.1594403131)69:0.1658513462)52:0.0613068345,d_122_1_1_4x9l_A:0.2574732102)33:0.0308611497,d_122_1_1_4xc0_A:0.1939201912)37:0.0590772497)75:0.0650410123,d_122_1_1_2xhx_A:0.1481854589);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t partition_file.nex.treefile -p partition_file.nex.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Alns/ --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Alns/ --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Jun  3 09:21:14 2025
+Total CPU time used: 2826.414295 seconds (0h:47m:6s)
+Total wall-clock time used: 2840.721091 seconds (0h:47m:20s)
+

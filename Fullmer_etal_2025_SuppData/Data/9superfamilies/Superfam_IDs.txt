@@ -1,0 +1,9 @@
+a.35.1	-	lambda repressor-like DNA-binding domains
+a.38.1	-	HLH, helix-loop-helix DNA-binding domain
+a.39.2	-	Insect pheromone/odorant-binding proteins
+b.122.1	-	PUA domain-like
+b.15.1	-	HSP20-like chaperones
+c.110.1	-	DTD-like
+c.124.1	-	NagB/RpiA/CoA transferase-like
+d.120.1	-	Cytochrome b5-like heme/steroid binding domain
+d.122.1	-	ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase
