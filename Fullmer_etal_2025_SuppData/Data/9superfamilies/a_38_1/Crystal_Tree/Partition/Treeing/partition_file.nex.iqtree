@@ -1,0 +1,143 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Partition file name: partition_file.nex
+Input file name: Alns/
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 963106
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 7 taxa with 2 partitions and 200 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	AA	7	100	99	31	18	18	sequence
+   2	AA	7	100	61	12	40	40	tdi
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  Q.insect+G4    1.6687  Q.insect+G4{1.47971}
+   2  /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat 0.3313  /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1809.4951 (s.e. 77.6318)
+Unconstrained log-likelihood (without tree): -841.7065
+Number of free parameters (#branches + #model parameters): 13
+Akaike information criterion (AIC) score: 3644.9901
+Corrected Akaike information criterion (AICc) score: 3646.9471
+Bayesian information criterion (BIC) score: 3687.8682
+
+Total tree length (sum of branch lengths): 5.5175
+Sum of internal branch lengths: 0.6565 (11.8981% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'a_38_1_1_1an2_A' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++---------------a_38_1_1_1an2_A
+|
+|           +-----------------------a_38_1_1_1mdy_A
+|      +----| (43)
+|      |    |          +----a_38_1_1_1am9_A
+|      |    +----------| (98)
+|      |               +------a_38_1_1_1ukl_C
+|   +--| (23)
+|   |  +---------------------------a_38_1_1_1nlw_A
++---| (36)
+|   +------------------------------------------------------a_38_1_1_1a0a_A
+|
++----------------a_38_1_0_5i4z_A
+
+Tree in newick format:
+
+(a_38_1_1_1an2_A:0.5084265579,(((a_38_1_1_1mdy_A:0.7714576100,(a_38_1_1_1am9_A:0.1801249019,a_38_1_1_1ukl_C:0.2243179415)98:0.3484884454)43:0.1567817835,a_38_1_1_1nlw_A:0.8936978491)23:0.0220492235,a_38_1_1_1a0a_A:1.7395302190)36:0.1291595214,a_38_1_0_5i4z_A:0.5434897672);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -1809.516757
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------------a_38_1_1_1an2_A
+|
+|        +-----------------------a_38_1_1_1mdy_A
+|   +----| (43)
+|   |    |          +----a_38_1_1_1am9_A
+|   |    +----------| (98)
+|   |               +------a_38_1_1_1ukl_C
++---| (36)
+|   |  +---------------------------a_38_1_1_1nlw_A
+|   +--| (24)
+|      +------------------------------------------------------a_38_1_1_1a0a_A
+|
++----------------a_38_1_0_5i4z_A
+
+
+Consensus tree in newick format: 
+
+(a_38_1_1_1an2_A:0.5097824851,((a_38_1_1_1mdy_A:0.7733211772,(a_38_1_1_1am9_A:0.1802424360,a_38_1_1_1ukl_C:0.2240989627)98:0.3472707021)43:0.1623601195,(a_38_1_1_1nlw_A:0.8949086529,a_38_1_1_1a0a_A:1.7479576162)24:0.0000020426)36:0.1455302131,a_38_1_0_5i4z_A:0.5403384476);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t partition_file.nex.treefile -p partition_file.nex.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Alns/ --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Alns/ --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Jun  3 12:51:40 2025
+Total CPU time used: 168.655465 seconds (0h:2m:48s)
+Total wall-clock time used: 159.0958202 seconds (0h:2m:39s)
+

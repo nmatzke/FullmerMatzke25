@@ -1,0 +1,104 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/a_39_2/Crystal_Tree/Partition/Treeing/Alns
+User tree file name: /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/a_39_2/Crystal_Tree/Partition/Treeing/partition_file.nex.treefile
+Type of analysis: tree reconstruction
+Random seed number: 607738
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 13 sequences with 316 amino-acid sites
+Number of constant sites: 24 (= 7.59494% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 24 (= 7.59494% of all sites)
+Number of parsimony informative sites: 219
+Number of distinct site patterns: 310
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -7249.0191 (s.e. 166.8416)
+Unconstrained log-likelihood (without tree): -1809.9735
+Number of free parameters (#branches + #model parameters): 0
+Akaike information criterion (AIC) score: 14498.0382
+Corrected Akaike information criterion (AICc) score: 14498.0382
+Bayesian information criterion (BIC) score: 14498.0382
+
+Total tree length (sum of branch lengths): 7.8839
+Sum of internal branch lengths: 2.3479 (29.7811% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'a_39_2_1_1qwv_A' is drawn at root
+
++------a_39_2_1_1qwv_A
+|
+|   +---a_39_2_1_1xfr_A
++---| (93/34)
+|   |     +-------------a_39_2_0_2wc6_A
+|   +-----| (92/54.9)
+|         |                        +-----a_39_2_0_3q8i_A
+|         |                +-------| (98/60.5)
+|         |                |       +----------a_39_2_1_1oof_A
+|         |         +------| (89/38.9)
+|         |         |      |                        +--a_39_2_0_3k1e_A
+|         |         |      |              +---------| (100/77.3)
+|         |         |      |              |         +--a_39_2_0_3ogn_A
+|         |         |      |           +--| (50/56)
+|         |         |      |           |  +---------------a_39_2_1_3d73_A
+|         |         |      |        +--| (27/21.6)
+|         |         |      |        |  +----------------a_39_2_0_4pt1_A
+|         |         |      |     +--| (43/46.2)
+|         |         |      |     |  +--------------a_39_2_0_3r72_A
+|         |         |      +-----| (93/30.8)
+|         |         |            +-------------------a_39_2_1_1c3y_A
+|         +---------| (97/40.7)
+|                   +------------------a_39_2_1_1org_A
+|
++-------a_39_2_1_2kph_A
+
+Tree in newick format:
+
+(a_39_2_1_1qwv_A:0.2708888005,(a_39_2_1_1xfr_A:0.1823462699,(a_39_2_0_2wc6_A:0.5636578447,(((a_39_2_0_3q8i_A:0.2599779178,a_39_2_1_1oof_A:0.4193000492)98/60.5:0.3179364751,(((((a_39_2_0_3k1e_A:0.0710354791,a_39_2_0_3ogn_A:0.0750512777)100/77.3:0.3973536633,a_39_2_1_3d73_A:0.6283705169)50/56:0.0723898370,a_39_2_0_4pt1_A:0.6582247288)27/21.6:0.1304369580,a_39_2_0_3r72_A:0.5675535526)43/46.2:0.0844352144,a_39_2_1_1c3y_A:0.7735699985)93/30.8:0.2578640912)89/38.9:0.3012700099,a_39_2_1_1org_A:0.7350005135)97/40.7:0.3789966374)92/54.9:0.2344284468)93/34:0.1727956070,a_39_2_1_2kph_A:0.3309937037);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t concord.treefile -m "LG" --length 316
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/a_39_2/Crystal_Tree/Partition/Treeing/Alns --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/a_39_2/Crystal_Tree/Partition/Treeing/Alns --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun  6 13:58:35 2025
+Total CPU time used: 0.009089 seconds (0h:0m:0s)
+Total wall-clock time used: 0.054985 seconds (0h:0m:0s)
+

@@ -1,0 +1,8 @@
+#nexus
+begin sets;
+  charset sequence = ./Alns/crystal_aa.fa: AA;
+  charset tdi = ./Alns/crystal.tdialn: ;
+  charpartition mymodels =
+    WAG+G4{4.51077}: sequence{8.51801},
+    /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat: tdi{4.9249};
+end;

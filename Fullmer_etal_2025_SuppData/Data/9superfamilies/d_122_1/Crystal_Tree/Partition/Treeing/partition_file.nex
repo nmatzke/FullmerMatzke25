@@ -1,0 +1,6 @@
+#nexus
+begin sets;
+	charset sequence = ./Alns/crystal_aa.fa: ;
+	charset tdi = ./Alns/crystal.tdialn: ;
+charpartition mine = LG+I+G4:sequence, /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat:tdi;
+end;

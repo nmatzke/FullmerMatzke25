@@ -1,0 +1,207 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Partition file name: partition_file.nex
+Input file name: Alns/
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 900165
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 23 taxa with 2 partitions and 1322 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	AA	23	661	609	298	119	119	sequence
+   2	AA	23	661	569	303	164	164	tdi
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  Blosum62+G4    1.3597  Blosum62+G4{17.7237}
+   2  /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat 0.6403  /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -23390.0439 (s.e. 523.4293)
+Unconstrained log-likelihood (without tree): -8291.1333
+Number of free parameters (#branches + #model parameters): 45
+Akaike information criterion (AIC) score: 46870.0878
+Corrected Akaike information criterion (AICc) score: 46873.3323
+Bayesian information criterion (BIC) score: 47103.4983
+
+Total tree length (sum of branch lengths): 18.4682
+Sum of internal branch lengths: 6.8227 (36.9433% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'c_124_1_0_4oqp_A' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++-------c_124_1_0_4oqp_A
+|
+|        +----c_124_1_8_2gnp_A
+|     +--| (32)
+|     |  |                +--------------c_124_1_1_1pbt_A
+|     |  |      +---------| (100)
+|     |  |      |         |     +---c_124_1_1_1ne7_A
+|     |  |      |         +-----| (100)
+|     |  |      |               |  +--c_124_1_1_4r7t_A
+|     |  |      |               +--| (98)
+|     |  |      |                  +--c_124_1_1_1jt9_A
+|     |  +------| (94)
+|     |         |                   +--------c_124_1_0_5n01_D
+|     |         |              +----| (82)
+|     |         |              |    +----------c_124_1_3_1poi_B
+|     |         |         +----| (92)
+|     |         |         |    +-----------------------c_124_1_7_2g40_A
+|     |         +---------| (100)
+|     |                   |                      +-----------c_124_1_6_1sbq_A
+|     |                   |       +--------------| (100)
+|     |                   |       |              +----c_124_1_6_1wkc_A
+|     |                   |    +--| (35)
+|     |                   |    |  |          +--------c_124_1_2_1poi_A
+|     |                   |    |  +----------| (97)
+|     |                   |    |             |        +--c_124_1_0_3cdk_A
+|     |                   |    |             |     +--| (95)
+|     |                   |    |             |     |  +--c_124_1_0_3rrl_A
+|     |                   |    |             +-----| (100)
+|     |                   |    |                   +----c_124_1_0_5dbn_A
+|     |                   +----| (86)
+|     |                        |            +--c_124_1_5_1t9k_A
+|     |                        |       +----| (95)
+|     |                        |       |    +-----------c_124_1_5_1w2w_A
+|     |                        +-------| (99)
+|     |                                +-------c_124_1_5_1vb5_A
+|  +--| (28)
+|  |  +------c_124_1_8_3efb_A
++--| (75)
+|  |     +--------c_124_1_0_3kv1_A
+|  |  +--| (44)
+|  |  |  +----------c_124_1_8_2o0m_A
+|  +--| (20)
+|     +----------c_124_1_0_4l4y_A
+|
++---------c_124_1_8_2r5f_A
+
+Tree in newick format:
+
+(c_124_1_0_4oqp_A:0.4929132017,(((c_124_1_8_2gnp_A:0.3508039039,((c_124_1_1_1pbt_A:0.9144867104,(c_124_1_1_1ne7_A:0.2654178834,(c_124_1_1_4r7t_A:0.1192677012,c_124_1_1_1jt9_A:0.1427193686)98:0.1018080143)100:0.3637893160)100:0.6451250155,(((c_124_1_0_5n01_D:0.5689526179,c_124_1_3_1poi_B:0.6492476342)82:0.2950920291,c_124_1_7_2g40_A:1.4223745879)92:0.3222263267,(((c_124_1_6_1sbq_A:0.7459273026,c_124_1_6_1wkc_A:0.3510522235)100:0.8957241602,(c_124_1_2_1poi_A:0.5639741295,((c_124_1_0_3cdk_A:0.1675576575,c_124_1_0_3rrl_A:0.2297934119)95:0.1559875796,c_124_1_0_5dbn_A:0.3287186577)100:0.4038614381)97:0.6722017395)35:0.0716832296,((c_124_1_5_1t9k_A:0.2229119011,c_124_1_5_1w2w_A:0.7273977098)95:0.3326746772,c_124_1_5_1vb5_A:0.4849649131)99:0.4912928541)86:0.3264819751)100:0.6102640564)94:0.4661819539)32:0.1539636220,c_124_1_8_3efb_A:0.4341138900)28:0.1212537288,((c_124_1_0_3kv1_A:0.5367885882,c_124_1_8_2o0m_A:0.6673139942)44:0.1245224218,c_124_1_0_4l4y_A:0.6622030395)20:0.1277105970)75:0.1409027569,c_124_1_8_2r5f_A:0.5965277889);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -23393.313509
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-------c_124_1_0_4oqp_A
+|
+|     +-------c_124_1_8_2gnp_A
+|  +--| (52)
+|  |  +------c_124_1_8_3efb_A
++--| (75)
+|  |        +--------c_124_1_0_3kv1_A
+|  |     +--| (44)
+|  |     |  +----------c_124_1_8_2o0m_A
+|  |  +--| (20)
+|  |  |  +----------c_124_1_0_4l4y_A
+|  +--| (35)
+|     |                 +--------------c_124_1_1_1pbt_A
+|     |       +---------| (100)
+|     |       |         |      +---c_124_1_1_1ne7_A
+|     |       |         +------| (100)
+|     |       |                |  +--c_124_1_1_4r7t_A
+|     |       |                +--| (98)
+|     |       |                   +--c_124_1_1_1jt9_A
+|     +-------| (94)
+|             |                    +---------c_124_1_0_5n01_D
+|             |               +----| (82)
+|             |               |    +----------c_124_1_3_1poi_B
+|             |          +----| (92)
+|             |          |    +------------------------c_124_1_7_2g40_A
+|             +----------| (100)
+|                        |                       +-----------c_124_1_6_1sbq_A
+|                        |       +---------------| (100)
+|                        |       |               +-----c_124_1_6_1wkc_A
+|                        |    +--| (43)
+|                        |    |  |            +--c_124_1_5_1t9k_A
+|                        |    |  |       +----| (95)
+|                        |    |  |       |    +-----------c_124_1_5_1w2w_A
+|                        |    |  +-------| (99)
+|                        |    |          +-------c_124_1_5_1vb5_A
+|                        +----| (86)
+|                             |          +---------c_124_1_2_1poi_A
+|                             +----------| (97)
+|                                        |         +--c_124_1_0_3cdk_A
+|                                        |      +--| (95)
+|                                        |      |  +---c_124_1_0_3rrl_A
+|                                        +------| (100)
+|                                               +----c_124_1_0_5dbn_A
+|
++---------c_124_1_8_2r5f_A
+
+
+Consensus tree in newick format: 
+
+(c_124_1_0_4oqp_A:0.5014709102,((c_124_1_8_2gnp_A:0.4804604231,c_124_1_8_3efb_A:0.4318841411)52:0.1147493540,(((c_124_1_0_3kv1_A:0.5362611446,c_124_1_8_2o0m_A:0.6665838657)44:0.1293949907,c_124_1_0_4l4y_A:0.6635216173)20:0.0464379681,((c_124_1_1_1pbt_A:0.8856967588,(c_124_1_1_1ne7_A:0.2613382384,(c_124_1_1_4r7t_A:0.1195621540,c_124_1_1_1jt9_A:0.1422197487)98:0.1060330754)100:0.3982268202)100:0.6205489448,(((c_124_1_0_5n01_D:0.5751803574,c_124_1_3_1poi_B:0.6463498083)82:0.2911284084,c_124_1_7_2g40_A:1.4301245134)92:0.3293639783,(((c_124_1_6_1sbq_A:0.7331422298,c_124_1_6_1wkc_A:0.3646545049)100:0.9097171141,((c_124_1_5_1t9k_A:0.2207949537,c_124_1_5_1w2w_A:0.7301034246)95:0.3343358434,c_124_1_5_1vb5_A:0.4848143694)99:0.4965312288)43:0.0351448461,(c_124_1_2_1poi_A:0.5764896778,((c_124_1_0_3cdk_A:0.1682431117,c_124_1_0_3rrl_A:0.2293198506)95:0.1578656166,c_124_1_0_5dbn_A:0.3269558223)100:0.3956445933)97:0.6774027552)86:0.3268726518)100:0.6250010747)94:0.5082631390)35:0.1056900249)75:0.1464540900,c_124_1_8_2r5f_A:0.5863266222);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t partition_file.nex.treefile -p partition_file.nex.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Alns/ --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Alns/ --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Jun  3 19:09:19 2025
+Total CPU time used: 3929.139254 seconds (1h:5m:29s)
+Total wall-clock time used: 3919.451414 seconds (1h:5m:19s)
+

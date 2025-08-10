@@ -1,0 +1,124 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/c_124_1/Crystal_Tree/Partition/Treeing/Alns
+User tree file name: /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/c_124_1/Crystal_Tree/Partition/Treeing/partition_file.nex.treefile
+Type of analysis: tree reconstruction
+Random seed number: 826710
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 23 sequences with 1322 amino-acid sites
+Number of constant sites: 283 (= 21.407% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 283 (= 21.407% of all sites)
+Number of parsimony informative sites: 601
+Number of distinct site patterns: 1142
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -25965.6662 (s.e. 566.1974)
+Unconstrained log-likelihood (without tree): -9115.3649
+Number of free parameters (#branches + #model parameters): 0
+Akaike information criterion (AIC) score: 51931.3324
+Corrected Akaike information criterion (AICc) score: 51931.3324
+Bayesian information criterion (BIC) score: 51931.3324
+
+Total tree length (sum of branch lengths): 18.4682
+Sum of internal branch lengths: 6.8227 (36.9433% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'c_124_1_0_4oqp_A' is drawn at root
+
++-------c_124_1_0_4oqp_A
+|
+|        +----c_124_1_8_2gnp_A
+|     +--| (32/36.9)
+|     |  |                +--------------c_124_1_1_1pbt_A
+|     |  |      +---------| (100/62.6)
+|     |  |      |         |     +---c_124_1_1_1ne7_A
+|     |  |      |         +-----| (100/75.8)
+|     |  |      |               |  +--c_124_1_1_4r7t_A
+|     |  |      |               +--| (98/56.2)
+|     |  |      |                  +--c_124_1_1_1jt9_A
+|     |  +------| (94/62.2)
+|     |         |                   +--------c_124_1_0_5n01_D
+|     |         |              +----| (82/48.6)
+|     |         |              |    +----------c_124_1_3_1poi_B
+|     |         |         +----| (92/41.1)
+|     |         |         |    +-----------------------c_124_1_7_2g40_A
+|     |         +---------| (100/42.4)
+|     |                   |                      +-----------c_124_1_6_1sbq_A
+|     |                   |       +--------------| (100/65.4)
+|     |                   |       |              +----c_124_1_6_1wkc_A
+|     |                   |    +--| (35/25.9)
+|     |                   |    |  |          +--------c_124_1_2_1poi_A
+|     |                   |    |  +----------| (97/69.9)
+|     |                   |    |             |        +--c_124_1_0_3cdk_A
+|     |                   |    |             |     +--| (95/55.5)
+|     |                   |    |             |     |  +--c_124_1_0_3rrl_A
+|     |                   |    |             +-----| (100/51.5)
+|     |                   |    |                   +----c_124_1_0_5dbn_A
+|     |                   +----| (86/40.8)
+|     |                        |            +--c_124_1_5_1t9k_A
+|     |                        |       +----| (95/59.3)
+|     |                        |       |    +-----------c_124_1_5_1w2w_A
+|     |                        +-------| (99/57.5)
+|     |                                +-------c_124_1_5_1vb5_A
+|  +--| (28/35)
+|  |  +------c_124_1_8_3efb_A
++--| (75/48.4)
+|  |     +--------c_124_1_0_3kv1_A
+|  |  +--| (44/38.3)
+|  |  |  +----------c_124_1_8_2o0m_A
+|  +--| (20/39.4)
+|     +----------c_124_1_0_4l4y_A
+|
++---------c_124_1_8_2r5f_A
+
+Tree in newick format:
+
+(c_124_1_0_4oqp_A:0.4929132017,(((c_124_1_8_2gnp_A:0.3508039039,((c_124_1_1_1pbt_A:0.9144867104,(c_124_1_1_1ne7_A:0.2654178834,(c_124_1_1_4r7t_A:0.1192677012,c_124_1_1_1jt9_A:0.1427193686)98/56.2:0.1018080143)100/75.8:0.3637893160)100/62.6:0.6451250155,(((c_124_1_0_5n01_D:0.5689526179,c_124_1_3_1poi_B:0.6492476342)82/48.6:0.2950920291,c_124_1_7_2g40_A:1.4223745879)92/41.1:0.3222263267,(((c_124_1_6_1sbq_A:0.7459273026,c_124_1_6_1wkc_A:0.3510522235)100/65.4:0.8957241602,(c_124_1_2_1poi_A:0.5639741295,((c_124_1_0_3cdk_A:0.1675576575,c_124_1_0_3rrl_A:0.2297934119)95/55.5:0.1559875796,c_124_1_0_5dbn_A:0.3287186577)100/51.5:0.4038614381)97/69.9:0.6722017395)35/25.9:0.0716832296,((c_124_1_5_1t9k_A:0.2229119011,c_124_1_5_1w2w_A:0.7273977098)95/59.3:0.3326746772,c_124_1_5_1vb5_A:0.4849649131)99/57.5:0.4912928541)86/40.8:0.3264819751)100/42.4:0.6102640564)94/62.2:0.4661819539)32/36.9:0.1539636220,c_124_1_8_3efb_A:0.4341138900)28/35:0.1212537288,((c_124_1_0_3kv1_A:0.5367885882,c_124_1_8_2o0m_A:0.6673139942)44/38.3:0.1245224218,c_124_1_0_4l4y_A:0.6622030395)20/39.4:0.1277105970)75/48.4:0.1409027569,c_124_1_8_2r5f_A:0.5965277889);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t concord.treefile -m "LG" --length 1322
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/c_124_1/Crystal_Tree/Partition/Treeing/Alns --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/c_124_1/Crystal_Tree/Partition/Treeing/Alns --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun  6 12:23:30 2025
+Total CPU time used: 0.016602 seconds (0h:0m:0s)
+Total wall-clock time used: 0.153344 seconds (0h:0m:0s)
+

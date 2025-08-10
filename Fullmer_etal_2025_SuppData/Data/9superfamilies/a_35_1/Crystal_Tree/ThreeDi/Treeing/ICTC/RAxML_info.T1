@@ -1,0 +1,40 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML consensus tree computation
+
+
+RAxML was called as follows:
+
+/Users/mful870/Bioinformatics_Programs/standard-RAxML-master/raxmlHPC-PTHREADS-AVX -L MRE -m GTRCAT -z /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/a_35_1/Crystal_Tree/ThreeDi/Treeing/crystal.tdialn.boottrees -n T1 --silent 
+
+
+
+
+Found 100 trees in File /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/a_35_1/Crystal_Tree/ThreeDi/Treeing/crystal.tdialn.boottrees
+
+Tree certainty for this tree: 1.005428
+Relative tree certainty for this tree: 0.034670
+
+Tree certainty including all conflicting bipartitions (TCA) for this tree: 2.816087
+Relative tree certainty including all conflicting bipartitions (TCA) for this tree: 0.097106
+
+RAxML extended Majority Rule consensus tree with IC values written to file: /Users/mful870/Desktop/Structuring_Prot_Universe/Prot_Uni_3di_Evaluation/a_35_1/Crystal_Tree/ThreeDi/Treeing/ICTC/RAxML_MajorityRuleExtendedConsensusTree_IC.T1

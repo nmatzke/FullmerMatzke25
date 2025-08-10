@@ -1,0 +1,124 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: crystal.tdialn
+User tree file name: crystal.tdialn.treefile
+Type of analysis: tree reconstruction
+Random seed number: 643568
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 23 sequences with 661 amino-acid sites
+Number of constant sites: 164 (= 24.8109% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 164 (= 24.8109% of all sites)
+Number of parsimony informative sites: 303
+Number of distinct site patterns: 569
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -9991.0423 (s.e. 311.9592)
+Unconstrained log-likelihood (without tree): -4094.1999
+Number of free parameters (#branches + #model parameters): 0
+Akaike information criterion (AIC) score: 19982.0847
+Corrected Akaike information criterion (AICc) score: 19982.0847
+Bayesian information criterion (BIC) score: 19982.0847
+
+Total tree length (sum of branch lengths): 11.9393
+Sum of internal branch lengths: 4.3078 (36.0810% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'c_124_1_0_4oqp_A' is drawn at root
+
++-----c_124_1_0_4oqp_A
+|
+|        +---c_124_1_8_2gnp_A
+|     +--| (28/40.2)
+|     |  |                 +-------------c_124_1_1_1pbt_A
+|     |  |       +---------| (99/49.8)
+|     |  |       |         |   +----c_124_1_1_1ne7_A
+|     |  |       |         +---| (91/64.5)
+|     |  |       |             |  +--c_124_1_1_4r7t_A
+|     |  |       |             +--| (84/43.3)
+|     |  |       |                +--c_124_1_1_1jt9_A
+|     |  +-------| (90/63.1)
+|     |          |                 +--------c_124_1_0_5n01_D
+|     |          |              +--| (78/39.4)
+|     |          |              |  +-------c_124_1_3_1poi_B
+|     |          |        +-----| (91/49.1)
+|     |          |        |     +----------------------c_124_1_7_2g40_A
+|     |          +--------| (99/53.3)
+|     |                   |                        +---------c_124_1_6_1sbq_A
+|     |                   |          +-------------| (100/56.6)
+|     |                   |          |             +-----c_124_1_6_1wkc_A
+|     |                   |       +--| (54/34.9)
+|     |                   |       |  |         +---c_124_1_5_1t9k_A
+|     |                   |       |  |     +---| (70/56)
+|     |                   |       |  |     |   +-----------c_124_1_5_1w2w_A
+|     |                   |       |  +-----| (74/79.5)
+|     |                   |       |        +--------c_124_1_5_1vb5_A
+|     |                   +-------| (98/50.1)
+|     |                           |           +----------c_124_1_2_1poi_A
+|     |                           +-----------| (99/68)
+|     |                                       |     +---c_124_1_0_3cdk_A
+|     |                                       |  +--| (80/57.6)
+|     |                                       |  |  +---c_124_1_0_3rrl_A
+|     |                                       +--| (48/55.9)
+|     |                                          +---c_124_1_0_5dbn_A
+|  +--| (22/37.6)
+|  |  |     +------c_124_1_0_3kv1_A
+|  |  |  +--| (44/48.4)
+|  |  |  |  +---------c_124_1_0_4l4y_A
+|  |  +--| (11/30.6)
+|  |     +-----------c_124_1_8_2o0m_A
++--| (73/50.8)
+|  +-----c_124_1_8_3efb_A
+|
++----------c_124_1_8_2r5f_A
+
+Tree in newick format:
+
+(c_124_1_0_4oqp_A:0.2589039965,(((c_124_1_8_2gnp_A:0.1954919743,((c_124_1_1_1pbt_A:0.5842063000,(c_124_1_1_1ne7_A:0.1958641611,(c_124_1_1_4r7t_A:0.1298571717,c_124_1_1_1jt9_A:0.1516302104)84/43.3:0.0615834701)91/64.5:0.1932207489)99/49.8:0.3940213824,(((c_124_1_0_5n01_D:0.3825183982,c_124_1_3_1poi_B:0.3322292033)78/39.4:0.1473557601,c_124_1_7_2g40_A:0.9139122962)91/49.1:0.2639762680,(((c_124_1_6_1sbq_A:0.3929126582,c_124_1_6_1wkc_A:0.2470071470)100/56.6:0.5488423212,((c_124_1_5_1t9k_A:0.1785933078,c_124_1_5_1w2w_A:0.4764788509)70/56:0.1568734849,c_124_1_5_1vb5_A:0.3645600797)74/79.5:0.2654109213)54/34.9:0.0814802946,(c_124_1_2_1poi_A:0.4437641426,((c_124_1_0_3cdk_A:0.1738920826,c_124_1_0_3rrl_A:0.1643165285)80/57.6:0.0955396719,c_124_1_0_5dbn_A:0.1728773325)48/55.9:0.1350925143)99/68:0.4711253642)98/50.1:0.3244005639)99/53.3:0.3867288817)90/63.1:0.3174208011)28/40.2:0.1092698721,((c_124_1_0_3kv1_A:0.2863093545,c_124_1_0_4l4y_A:0.4034925205)44/48.4:0.0929430981,c_124_1_8_2o0m_A:0.4793349017)11/30.6:0.0752378849)22/37.6:0.0386981365,c_124_1_8_3efb_A:0.2718375679)73/50.8:0.1485852822,c_124_1_8_2r5f_A:0.4314715296);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t concord.treefile -m "/Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat" --length 661
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s crystal.tdialn --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s crystal.tdialn --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun  6 12:22:07 2025
+Total CPU time used: 0.011673 seconds (0h:0m:0s)
+Total wall-clock time used: 0.0762761 seconds (0h:0m:0s)
+

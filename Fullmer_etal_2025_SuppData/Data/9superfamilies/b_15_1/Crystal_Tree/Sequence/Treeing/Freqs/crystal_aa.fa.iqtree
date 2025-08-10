@@ -1,0 +1,120 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: crystal_aa.fa
+Type of analysis: tree reconstruction
+Random seed number: 293422
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 11 sequences with 174 amino-acid sites
+Number of constant sites: 39 (= 22.4138% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 39 (= 22.4138% of all sites)
+Number of parsimony informative sites: 86
+Number of distinct site patterns: 163
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0566
+  pi(R) = 0.0632
+  pi(N) = 0.0374
+  pi(D) = 0.0566
+  pi(C) = 0.0058
+  pi(Q) = 0.0275
+  pi(E) = 0.1040
+  pi(G) = 0.0599
+  pi(H) = 0.0158
+  pi(I) = 0.0815
+  pi(L) = 0.0657
+  pi(K) = 0.0923
+  pi(M) = 0.0108
+  pi(F) = 0.0358
+  pi(P) = 0.0466
+  pi(S) = 0.0699
+  pi(T) = 0.0408
+  pi(W) = 0.0142
+  pi(Y) = 0.0258
+  pi(V) = 0.0898
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2569.7471 (s.e. 118.6922)
+Unconstrained log-likelihood (without tree): -881.3799
+Number of free parameters (#branches + #model parameters): 38
+Akaike information criterion (AIC) score: 5215.4942
+Corrected Akaike information criterion (AICc) score: 5237.4497
+Bayesian information criterion (BIC) score: 5335.5383
+
+Total tree length (sum of branch lengths): 11.5799
+Sum of internal branch lengths: 6.9847 (60.3174% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'b_15_1_1_1gme_A' is drawn at root
+
++--b_15_1_1_1gme_A
+|
++--b_15_1_1_5ds2_A
+|
+|                          +--b_15_1_0_3aab_A
+|                  +-------|
+|                  |       +--b_15_1_0_4yl9_A
+|           +------|
+|           |      +----------b_15_1_1_1shs_A
+|       +---|
+|       |   |     +--b_15_1_0_3w1z_D
+|       |   +-----|
+|       |         |                                +------b_15_1_0_2xcm_C
+|       |         |                     +----------|
+|       |         |                     |          +-----b_15_1_3_1rl1_A
+|       |         +---------------------|
+|       |                               +-----------b_15_1_2_1ejf_A
++-------|
+        |     +--b_15_1_0_3gla_A
+        +-----|
+              +--b_15_1_0_5j7n_A
+
+Tree in newick format:
+
+(b_15_1_1_1gme_A:0.2483497129,b_15_1_1_5ds2_A:0.0140009869,((((b_15_1_0_3aab_A:0.3620173809,b_15_1_0_4yl9_A:0.1512148943):0.8251634745,b_15_1_1_1shs_A:1.0224482371):0.7019421735,(b_15_1_0_3w1z_D:0.1819147083,((b_15_1_0_2xcm_C:0.6606522098,b_15_1_3_1rl1_A:0.6271680801):1.1052063558,b_15_1_2_1ejf_A:1.1586126396):2.0393607641):0.6256795126):0.3750963175,(b_15_1_0_3gla_A:0.1283760345,b_15_1_0_5j7n_A:0.0404648818):0.5564319920):0.7558221991);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t crystal_aa.fa.treefile -m "LG+F" --length 174
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s crystal_aa.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s crystal_aa.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun  6 12:15:23 2025
+Total CPU time used: 1.64524 seconds (0h:0m:1s)
+Total wall-clock time used: 1.53115 seconds (0h:0m:1s)
+

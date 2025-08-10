@@ -1,0 +1,145 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: crystal.tdialn
+User tree file name: crystal.tdialn.treefile
+Type of analysis: tree reconstruction
+Random seed number: 254640
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 32 sequences with 241 amino-acid sites
+Number of constant sites: 60 (= 24.8963% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 60 (= 24.8963% of all sites)
+Number of parsimony informative sites: 111
+Number of distinct site patterns: 209
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -4007.3836 (s.e. 213.4221)
+Unconstrained log-likelihood (without tree): -1262.3546
+Number of free parameters (#branches + #model parameters): 0
+Akaike information criterion (AIC) score: 8014.7673
+Corrected Akaike information criterion (AICc) score: 8014.7673
+Bayesian information criterion (BIC) score: 8014.7673
+
+Total tree length (sum of branch lengths): 15.2469
+Sum of internal branch lengths: 4.3673 (28.6436% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0041) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'a_35_1_3_1b0n_A' is drawn at root
+
++--a_35_1_3_1b0n_A
+|
+|      +--a_35_1_3_2ofy_A
+|   +--| (3/49.5)
+|   |  |                                          +----------------a_35_1_0_2pij_A
+|   |  |                                       +--| (55/6.92)
+|   |  |                                       |  +-------------a_35_1_2_1d1m_B
+|   |  |                  +--------------------| (94/78.1)
+|   |  |                  |                    +-----a_35_1_2_2a63_A
+|   |  |               +--| (6/29.8)
+|   |  |               |  +---a_35_1_3_1utx_A
+|   |  |            +--| (1/63.7)
+|   |  |            |  |     +---------------------a_35_1_7_1s7e_A
+|   |  |            |  |  +--| (16/32.4)
+|   |  |            |  |  |  +-------------a_35_1_7_1yse_A
+|   |  |            |  +--| (4/42)
+|   |  |            |     +--------a_35_1_3_2ppx_A
+|   |  |         +--| (1/52.8)
+|   |  |         |  +----a_35_1_13_2o38_A
+|   |  |     +---| (2/82)
+|   |  |     |   +--a_35_1_0_3vk0_A
+|   |  |  +--| (0/41.4)
+|   |  |  |  +--a_35_1_3_2b5a_A
+|   |  +--| (1/72.2)
+|   |     |     +--a_35_1_3_1y7y_A
+|   |     |  +--| (14/62.8)
+|   |     |  |  |     +--a_35_1_2_1lli_A
+|   |     |  |  |  +--| (40/80.7)
+|   |     |  |  |  |  +--a_35_1_2_3kz3_A
+|   |     |  |  +--| (30/50.1)
+|   |     |  |     +--------------a_35_1_2_1neq_A
+|   |     +--| (0/47.8)
+|   |        |      +--a_35_1_0_3clc_A
+|   |        |  +---| (14/51.9)
+|   |        |  |   +--------------------a_35_1_0_2l8n_A
+|   |        +--| (6/4.17)
+|   |           +--a_35_1_0_5woq_A
++---| (58/65.8)
+|   |  +-----------------a_35_1_6_2ox6_A
+|   +--| (1/58.7)
+|      |                  +---a_35_1_0_2xsd_C
+|      |               +--| (51/57.1)
+|      |               |  +--a_35_1_1_1e3o_C
+|      |     +---------| (87/96)
+|      |     |         +--a_35_1_1_1au7_A
+|      |  +**| (2/30.3)
+|      |  |  |          +--a_35_1_2_1sq8_A
+|      |  |  |       +--| (53/64.9)
+|      |  |  |       |  +---------------------a_35_1_5_1uxc_A
+|      |  |  |  +----| (24/64.3)
+|      |  |  |  |    |  +-----a_35_1_2_2r63_A
+|      |  |  |  |    +--| (36/51.8)
+|      |  |  |  |       +-----a_35_1_2_1zug_A
+|      |  |  +--| (13/25.6)
+|      |  |     +**a_35_1_2_3jxb_C
+|      +--| (0/21.8)
+|         +------------a_35_1_2_1rzs_A
+|
+|     +--a_35_1_3_2icp_A
+|  +--| (67/61.5)
+|  |  +--a_35_1_3_4mct_A
++--| (67/30.9)
+   +------a_35_1_0_2eby_A
+
+Tree in newick format:
+
+(a_35_1_3_1b0n_A:0.0802626207,((a_35_1_3_2ofy_A:0.1707232887,((((((((a_35_1_0_2pij_A:0.7697870877,a_35_1_2_1d1m_B:0.6550187490)55/6.92:0.0837710738,a_35_1_2_2a63_A:0.2724243634)94/78.1:0.9682379751,a_35_1_3_1utx_A:0.2153943089)6/29.8:0.1179939488,((a_35_1_7_1s7e_A:0.9934781972,a_35_1_7_1yse_A:0.6350126832)16/32.4:0.1643257777,a_35_1_3_2ppx_A:0.4212718471)4/42:0.1532609573)1/63.7:0.0691981741,a_35_1_13_2o38_A:0.2343392241)1/52.8:0.0537245466,a_35_1_0_3vk0_A:0.1668419409)2/82:0.2046956915,a_35_1_3_2b5a_A:0.0219454560)0/41.4:0.0695430797,((a_35_1_3_1y7y_A:0.0975943862,((a_35_1_2_1lli_A:0.1094698097,a_35_1_2_3kz3_A:0.0688964713)40/80.7:0.1071417223,a_35_1_2_1neq_A:0.6872202838)30/50.1:0.1389995989)14/62.8:0.0964700691,((a_35_1_0_3clc_A:0.0058794692,a_35_1_0_2l8n_A:0.9494659902)14/51.9:0.1804919114,a_35_1_0_5woq_A:0.0695170528)6/4.17:0.1010433897)0/47.8:0.0390774794)1/72.2:0.0688150181)3/49.5:0.0714573970,(a_35_1_6_2ox6_A:0.8184469826,((((a_35_1_0_2xsd_C:0.2077059727,a_35_1_1_1e3o_C:0.1269353389)51/57.1:0.0997770165,a_35_1_1_1au7_A:0.1597715056)87/96:0.4860478018,(((a_35_1_2_1sq8_A:0.1078657249,a_35_1_5_1uxc_A:0.9819874736)53/64.9:0.0442377087,(a_35_1_2_2r63_A:0.2964803221,a_35_1_2_1zug_A:0.2992050063)36/51.8:0.1336546487)24/64.3:0.2378760974,a_35_1_2_3jxb_C:0.0000027549)13/25.6:0.0770409257)2/30.3:0.0000024665,a_35_1_2_1rzs_A:0.6107145612)0/21.8:0.0648102115)1/58.7:0.1019621323)58/65.8:0.1830020002,((a_35_1_3_2icp_A:0.1532641955,a_35_1_3_4mct_A:0.1598900097)67/61.5:0.1175765054,a_35_1_0_2eby_A:0.3328465034)67/30.9:0.1330355572);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t concord.treefile -m "/Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat" --length 241
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s crystal.tdialn --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s crystal.tdialn --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun  6 13:07:15 2025
+Total CPU time used: 0.009833 seconds (0h:0m:0s)
+Total wall-clock time used: 0.0429599 seconds (0h:0m:0s)
+

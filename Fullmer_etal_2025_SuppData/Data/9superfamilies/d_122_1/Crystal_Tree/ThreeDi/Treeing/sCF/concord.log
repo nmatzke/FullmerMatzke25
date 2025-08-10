@@ -1,0 +1,107 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    sc-sbs-383386 (AVX512, FMA3, 32 GB RAM)
+Command: /Users/mful870/Bioinformatics_Programs/iqtree-2.4.0-macOS/bin/iqtree2 -redo -te crystal.tdialn.treefile -s crystal.tdialn --scfl 100 -blfix -m /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat --prefix concord
+Seed:    595282 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  6 12:43:06 2025
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file crystal.tdialn ... Fasta format detected
+Reading fasta file: done in 0.000254869 secs using 87.89% CPU
+Alignment most likely contains protein sequences
+Alignment has 26 sequences with 372 columns, 284 distinct patterns
+207 parsimony-informative, 43 singleton sites, 122 constant sites
+WARNING: Some sequence names are changed as follows:
+d_122_1_1+1uym_A -> d_122_1_1_1uym_A
+d_122_1_1+4gqt_A -> d_122_1_1_4gqt_A
+d_122_1_1+2xhx_A -> d_122_1_1_2xhx_A
+d_122_1_1+1bgq_A -> d_122_1_1_1bgq_A
+d_122_1_1+3k60_A -> d_122_1_1_3k60_A
+d_122_1_1+4xc0_A -> d_122_1_1_4xc0_A
+d_122_1_1+4x9l_A -> d_122_1_1_4x9l_A
+d_122_1_1+1yt2_A -> d_122_1_1_1yt2_A
+d_122_1_1+2esa_A -> d_122_1_1_2esa_A
+d_122_1_0+5f3k_A -> d_122_1_0_5f3k_A
+d_122_1_0+4hz0_A -> d_122_1_0_4hz0_A
+d_122_1_2+1s14_A -> d_122_1_2_1s14_A
+d_122_1_0+4p8o_A -> d_122_1_0_4p8o_A
+d_122_1_0+4urm_A -> d_122_1_0_4urm_A
+d_122_1_2+3g7e_A -> d_122_1_2_3g7e_A
+d_122_1_0+4em7_A -> d_122_1_0_4em7_A
+d_122_1_0+4hz5_A -> d_122_1_0_4hz5_A
+d_122_1_0+4b6c_A -> d_122_1_0_4b6c_A
+d_122_1_0+4bae_A -> d_122_1_0_4bae_A
+d_122_1_0+4urn_A -> d_122_1_0_4urn_A
+d_122_1_3+1ys3_A -> d_122_1_3_1ys3_A
+d_122_1_3+2c2a_A -> d_122_1_3_2c2a_A
+d_122_1_3+1bxd_A -> d_122_1_3_1bxd_A
+d_122_1_3+1id0_A -> d_122_1_3_1id0_A
+d_122_1_3+1tid_A -> d_122_1_3_1tid_A
+d_122_1_3+1r62_A -> d_122_1_3_1r62_A
+
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.5034e-05 secs using 83.89% CPU
+   1  d_122_1_1_1uym_A   43.82%    passed     74.40%
+   2  d_122_1_1_4gqt_A   43.82%    passed     97.97%
+   3  d_122_1_1_2xhx_A   42.74%    passed     96.41%
+   4  d_122_1_1_1bgq_A   42.47%    passed     67.59%
+   5  d_122_1_1_3k60_A   41.94%    passed     96.72%
+   6  d_122_1_1_4xc0_A   42.74%    passed     77.93%
+   7  d_122_1_1_4x9l_A   44.89%    passed     78.02%
+   8  d_122_1_1_1yt2_A   39.52%    passed     33.23%
+   9  d_122_1_1_2esa_A   40.86%    passed     48.94%
+  10  d_122_1_0_5f3k_A   44.89%    passed     47.87%
+  11  d_122_1_0_4hz0_A   45.97%    passed     29.78%
+  12  d_122_1_2_1s14_A   54.84%    passed     17.73%
+  13  d_122_1_0_4p8o_A   50.54%    passed     99.71%
+  14  d_122_1_0_4urm_A   47.85%    passed     85.25%
+  15  d_122_1_2_3g7e_A   45.43%    passed     58.77%
+  16  d_122_1_0_4em7_A   48.12%    passed     35.81%
+  17  d_122_1_0_4hz5_A   48.66%    passed     95.00%
+  18  d_122_1_0_4b6c_A   56.72%    passed     59.85%
+  19  d_122_1_0_4bae_A   50.54%    passed     97.52%
+  20  d_122_1_0_4urn_A   49.46%    passed     41.06%
+  21  d_122_1_3_1ys3_A   63.17%    passed     12.68%
+  22  d_122_1_3_2c2a_A   35.48%    failed      0.23%
+  23  d_122_1_3_1bxd_A   56.72%    failed      0.03%
+  24  d_122_1_3_1id0_A   60.75%    passed     82.25%
+  25  d_122_1_3_1tid_A   63.44%    failed      1.34%
+  26  d_122_1_3_1r62_A   63.44%    passed     34.92%
+WARNING: 9 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              48.80%  3 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading input tree file crystal.tdialn.treefile ...
+Reading model parameters from file /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -6821.026
+Optimal log-likelihood: -6821.026
+Parameters optimization took 1 rounds (0.002 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -6821.026
+Total tree length: 10.075
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.011 sec (0h:0m:0s)
+Total wall-clock time used: 0.016 sec (0h:0m:0s)
+Computing site concordance factor using likelihood...
+0.041 sec
+Tree with site concordance factors written to concord.cf.tree
+Annotated tree (best viewed in FigTree) written to concord.cf.tree.nex
+Tree with branch IDs written to concord.cf.branch
+Concordance factors per branch printed to concord.cf.stat
+
+Analysis results written to: 
+  IQ-TREE report:                concord.iqtree
+  Maximum-likelihood tree:       concord.treefile
+  Screen log file:               concord.log
+
+Date and Time: Fri Jun  6 12:43:06 2025

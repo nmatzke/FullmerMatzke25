@@ -1,0 +1,161 @@
+IQ-TREE 1.6.8 built Oct 28 2018
+
+Input file name: crystal.tdialn
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 961175
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 13 sequences with 354 amino-acid sites
+Number of constant sites: 129 (= 36.4407% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 129 (= 36.4407% of all sites)
+Number of parsimony informative sites: 115
+Number of distinct site patterns: 268
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0608
+  pi(R) = 0.0342
+  pi(N) = 0.0232
+  pi(D) = 0.1687
+  pi(C) = 0.0315
+  pi(Q) = 0.0514
+  pi(E) = 0.0221
+  pi(G) = 0.0481
+  pi(H) = 0.0337
+  pi(I) = 0.0342
+  pi(L) = 0.0309
+  pi(K) = 0.0320
+  pi(M) = 0.0143
+  pi(F) = 0.0464
+  pi(P) = 0.0929
+  pi(S) = 0.0237
+  pi(T) = 0.0375
+  pi(W) = 0.0381
+  pi(Y) = 0.0221
+  pi(V) = 0.1543
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 9.2068
+
+ Category  Relative_rate  Proportion
+  1         0.6176         0.2500
+  2         0.8644         0.2500
+  3         1.0740         0.2500
+  4         1.4440         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3556.7742 (s.e. 147.4110)
+Unconstrained log-likelihood (without tree): -1900.1398
+Number of free parameters (#branches + #model parameters): 43
+Akaike information criterion (AIC) score: 7199.5485
+Corrected Akaike information criterion (AICc) score: 7211.7549
+Bayesian information criterion (BIC) score: 7365.9283
+
+Total tree length (sum of branch lengths): 8.7448
+Sum of internal branch lengths: 2.6825 (30.6747% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0028) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'b_122_1_12_2zkd_A' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++--b_122_1_12_2zkd_A
+|
++-----b_122_1_12_4pw5_A
+|
+|                          +----b_122_1_10_1zbo_A
+|                      +---| (62)
+|                      |   +--------b_122_1_10_2ane_A
+|                 +----| (69)
+|                 |    +-----------------------b_122_1_11_2gmq_A
+|              +**| (44)
+|              |  |               +-----------b_122_1_8_1zce_A
+|              |  |           +---| (82)
+|              |  |           |   +-------b_122_1_8_2ar1_A
+|              |  |      +----| (87)
+|              |  |      |    +----------b_122_1_8_1wmm_A
+|              |  +------| (74)
+|              |         |                       +---------b_122_1_6_1s04_A
+|              |         |                    +--| (67)
+|              |         |                    |  +-----------b_122_1_6_1xne_A
+|              |         |     +--------------| (96)
+|              |         |     |              +--b_122_1_6_2z0t_A
+|              |         +-----| (70)
+|              |               +---------------------b_122_1_7_1te7_A
++--------------| (98)
+               +-----------------------b_122_1_5_1wk2_A
+
+Tree in newick format:
+
+(b_122_1_12_2zkd_A:0.0685941900,b_122_1_12_4pw5_A:0.2617166840,((((b_122_1_10_1zbo_A:0.2263408370,b_122_1_10_2ane_A:0.3927574707)62:0.1606003055,b_122_1_11_2gmq_A:0.9647122254)69:0.2091442103,(((b_122_1_8_1zce_A:0.4799891166,b_122_1_8_2ar1_A:0.3435684923)82:0.1932774668,b_122_1_8_1wmm_A:0.4447671400)87:0.2313367620,(((b_122_1_6_1s04_A:0.4208033278,b_122_1_6_1xne_A:0.4854731399)67:0.1445241807,b_122_1_6_2z0t_A:0.1520711137)96:0.6147691961,b_122_1_7_1te7_A:0.8706400288)70:0.2440343837)74:0.2797991316)44:0.0016306527,b_122_1_5_1wk2_A:0.9509596010)98:0.6033342953);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100bootstrap trees
+Log-likelihood of consensus tree: -3556.774404
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--b_122_1_12_2zkd_A
+|
++-----b_122_1_12_4pw5_A
+|
+|                          +----b_122_1_10_1zbo_A
+|                      +---| (62)
+|                      |   +--------b_122_1_10_2ane_A
+|                 +----| (69)
+|                 |    +-----------------------b_122_1_11_2gmq_A
+|              +--| (44)
+|              |  |               +-----------b_122_1_8_1zce_A
+|              |  |           +---| (82)
+|              |  |           |   +-------b_122_1_8_2ar1_A
+|              |  |      +----| (87)
+|              |  |      |    +----------b_122_1_8_1wmm_A
+|              |  +------| (74)
+|              |         |                       +---------b_122_1_6_1s04_A
+|              |         |                    +--| (67)
+|              |         |                    |  +-----------b_122_1_6_1xne_A
+|              |         |     +--------------| (96)
+|              |         |     |              +--b_122_1_6_2z0t_A
+|              |         +-----| (70)
+|              |               +---------------------b_122_1_7_1te7_A
++--------------| (98)
+               +----------------------b_122_1_5_1wk2_A
+
+
+Consensus tree in newick format: 
+
+(b_122_1_12_2zkd_A:0.0684125034,b_122_1_12_4pw5_A:0.2618728644,((((b_122_1_10_1zbo_A:0.2265791823,b_122_1_10_2ane_A:0.3925790248)62:0.1605574718,b_122_1_11_2gmq_A:0.9649256089)69:0.2080767024,(((b_122_1_8_1zce_A:0.4799579236,b_122_1_8_2ar1_A:0.3436122782)82:0.1932341866,b_122_1_8_1wmm_A:0.4448509206)87:0.2316880396,(((b_122_1_6_1s04_A:0.4207975502,b_122_1_6_1xne_A:0.4854481354)67:0.1444707323,b_122_1_6_2z0t_A:0.1521011496)96:0.6147683395,b_122_1_7_1te7_A:0.8706794768)70:0.2437592286)74:0.2796071834)44:0.0048586880,b_122_1_5_1wk2_A:0.9490071045)98:0.6011056284);
+
+TIME STAMP
+----------
+
+Date and time: Fri May 30 21:47:46 2025
+Total CPU time used: 10.573837 seconds (0h:0m:10s)
+Total wall-clock time used: 10.72970605 seconds (0h:0m:10s)
+

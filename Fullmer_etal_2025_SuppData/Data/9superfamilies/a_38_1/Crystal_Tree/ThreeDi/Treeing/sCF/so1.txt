@@ -1,0 +1,69 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    sc-sbs-383386 (AVX512, FMA3, 32 GB RAM)
+Command: /Users/mful870/Bioinformatics_Programs/iqtree-2.4.0-macOS/bin/iqtree2 -redo -te crystal.tdialn.treefile -s crystal.tdialn --scfl 100 -blfix -m /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat --prefix concord
+Seed:    547214 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  6 13:07:57 2025
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file crystal.tdialn ... Fasta format detected
+Reading fasta file: done in 6.50883e-05 secs using 67.6% CPU
+Alignment most likely contains protein sequences
+Alignment has 7 sequences with 100 columns, 61 distinct patterns
+12 parsimony-informative, 48 singleton sites, 40 constant sites
+WARNING: Some sequence names are changed as follows:
+a_38_1_1+1an2_A -> a_38_1_1_1an2_A
+a_38_1_1+1mdy_A -> a_38_1_1_1mdy_A
+a_38_1_0+5i4z_A -> a_38_1_0_5i4z_A
+a_38_1_1+1nlw_A -> a_38_1_1_1nlw_A
+a_38_1_1+1am9_A -> a_38_1_1_1am9_A
+a_38_1_1+1ukl_C -> a_38_1_1_1ukl_C
+a_38_1_1+1a0a_A -> a_38_1_1_1a0a_A
+
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.09673e-05 secs using 72.94% CPU
+   1  a_38_1_1_1an2_A   14.00%    passed     99.83%
+   2  a_38_1_1_1mdy_A   32.00%    passed     99.73%
+   3  a_38_1_0_5i4z_A   26.00%    passed     99.84%
+   4  a_38_1_1_1nlw_A   21.00%    passed     83.19%
+   5  a_38_1_1_1am9_A   20.00%    passed     99.98%
+   6  a_38_1_1_1ukl_C   39.00%    passed     89.56%
+   7  a_38_1_1_1a0a_A   37.00%    failed      0.31%
+****  TOTAL             27.00%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+WARNING: States(s) N, E, I, K, M, T, W, Y rarely appear in alignment and may cause numerical problems
+Reading input tree file crystal.tdialn.treefile ...
+Reading model parameters from file /Users/mful870/Desktop/MD_3di_Dev_02Oct24/Scriptorum/SubstitutionMatrix/3di_substmat
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -628.692
+Optimal log-likelihood: -628.692
+Parameters optimization took 1 rounds (0.000 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -628.692
+Total tree length: 2.607
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.008 sec (0h:0m:0s)
+Total wall-clock time used: 0.012 sec (0h:0m:0s)
+Computing site concordance factor using likelihood...
+0.002 sec
+Tree with site concordance factors written to concord.cf.tree
+Annotated tree (best viewed in FigTree) written to concord.cf.tree.nex
+Tree with branch IDs written to concord.cf.branch
+Concordance factors per branch printed to concord.cf.stat
+
+Analysis results written to: 
+  IQ-TREE report:                concord.iqtree
+  Maximum-likelihood tree:       concord.treefile
+  Screen log file:               concord.log
+
+Date and Time: Fri Jun  6 13:07:57 2025
